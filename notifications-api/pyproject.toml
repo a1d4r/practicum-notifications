@@ -124,7 +124,6 @@ allowed-confusables = [
   "F401", # Unused import
   "F403", # Import star
   "ARG001", # Unused function argument (using fixtures from other fixtures),
-  "N999",  # False positive
 ]
 "tests/**/*.py" = [
   "S101", # Use of assert detected (assert allowed in tests)
