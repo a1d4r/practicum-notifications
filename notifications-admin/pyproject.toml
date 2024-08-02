@@ -4,11 +4,10 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]  # https://python-poetry.org/docs/pyproject/
 package-mode = false
-name = "notifications-api"
+name = "notifications-admin"
 
 [tool.poetry.dependencies]  # https://python-poetry.org/docs/dependency-specification/
 python = "^3.12"
-pydantic = "^2.6.4"
 
 [tool.poetry.group.dev.dependencies]  # https://python-poetry.org/docs/master/managing-dependencies/
 mypy = "^1.11.1"
@@ -30,9 +29,7 @@ show_error_codes = true
 show_error_context = true
 show_traceback = true
 color_output = true
-plugins = ["pydantic.mypy"]
-
-strict = false  # https://mypy.readthedocs.io/en/stable/existing_code.html#introduce-stricter-options
+strict = true  # https://mypy.readthedocs.io/en/stable/existing_code.html#introduce-stricter-options
 ignore_missing_imports = true
 disallow_untyped_decorators = false
 
@@ -42,17 +39,11 @@ disallow_untyped_defs = false
 disallow_incomplete_defs = false
 disallow_untyped_calls = false
 
-[tool.pydantic-mypy]  # https://pydantic-docs.helpmanual.io/mypy_plugin/#configuring-the-plugin
-init_forbid_extra = true
-init_typed = true
-warn_required_dynamic_aliases = true
-warn_untyped_fields = true
-
 [tool.pytest.ini_options]
 # https://docs.pytest.org/en/6.2.x/customize.html#pyproject-toml
 # https://docs.pytest.org/en/latest/reference/reference.html#ini-options-ref
 filterwarnings = ["error", "ignore::DeprecationWarning", "ignore::ImportWarning"]
-testpaths = ["notifications_api", "tests"]
+testpaths = ["notifications_admin", "tests"]
 xfail_strict = true
 
 # Extra options:
@@ -65,7 +56,7 @@ addopts = [
   "--verbosity=2",
   "--doctest-modules",
   "--doctest-continue-on-failure",
-  "--typeguard-packages=notifications_api",
+  "--typeguard-packages=notifications_admin",
   "--cov",
   "--junitxml=reports/junit.xml"
 ]
@@ -73,7 +64,7 @@ addopts = [
 [tool.coverage.run]  # https://coverage.readthedocs.io/en/latest/config.html#run
 branch = true
 data_file = "reports/.coverage"
-source = ["notifications_api"]
+source = ["notifications_admin"]
 
 [tool.coverage.report]  # https://coverage.readthedocs.io/en/latest/config.html#report
 precision = 1
@@ -123,7 +114,7 @@ allowed-confusables = [
 "__init__.py" = [
   "F401", # Unused import
   "F403", # Import star
-  "ARG001", # Unused function argument (using fixtures from other fixtures),
+  "ARG001", # Unused function argument (using fixtures from other fixtures)
 ]
 "tests/**/*.py" = [
   "S101", # Use of assert detected (assert allowed in tests)
