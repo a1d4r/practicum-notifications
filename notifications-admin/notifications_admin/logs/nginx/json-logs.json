@@ -1,0 +1,2048 @@
+{ "time": "2024-08-07 16:16:53", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 16:17:20", "level": "INFO", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 302 0" }
+{ "time": "2024-08-07 16:17:20", "level": "INFO", "request_id": "", "message": ""GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267" }
+{ "time": "2024-08-07 16:17:21", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/login.css HTTP/1.1" 200 958" }
+{ "time": "2024-08-07 16:17:21", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/base.css HTTP/1.1" 200 21207" }
+{ "time": "2024-08-07 16:17:21", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/responsive.css HTTP/1.1" 200 18533" }
+{ "time": "2024-08-07 16:17:21", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694" }
+{ "time": "2024-08-07 16:17:21", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929" }
+{ "time": "2024-08-07 16:17:21", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/theme.js HTTP/1.1" 200 1943" }
+{ "time": "2024-08-07 16:17:21", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063" }
+{ "time": "2024-08-07 16:17:24", "level": "INFO", "request_id": "", "message": ""GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267" }
+{ "time": "2024-08-07 16:17:24", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929" }
+{ "time": "2024-08-07 16:17:24", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/responsive.css HTTP/1.1" 200 18533" }
+{ "time": "2024-08-07 16:17:24", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694" }
+{ "time": "2024-08-07 16:17:24", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/login.css HTTP/1.1" 200 958" }
+{ "time": "2024-08-07 16:17:24", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/base.css HTTP/1.1" 200 21207" }
+{ "time": "2024-08-07 16:17:24", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/theme.js HTTP/1.1" 200 1943" }
+{ "time": "2024-08-07 16:17:24", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063" }
+{ "time": "2024-08-07 16:17:24", "level": "WARNING", "request_id": "", "message": "Not Found: /favicon.ico" }
+{ "time": "2024-08-07 16:17:24", "level": "WARNING", "request_id": "", "message": ""GET /favicon.ico HTTP/1.1" 404 2110" }
+{ "time": "2024-08-07 16:17:28", "level": "INFO", "request_id": "", "message": ""GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267" }
+{ "time": "2024-08-07 16:17:28", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694" }
+{ "time": "2024-08-07 16:17:28", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/login.css HTTP/1.1" 200 958" }
+{ "time": "2024-08-07 16:17:28", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929" }
+{ "time": "2024-08-07 16:17:28", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/base.css HTTP/1.1" 200 21207" }
+{ "time": "2024-08-07 16:17:28", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/responsive.css HTTP/1.1" 200 18533" }
+{ "time": "2024-08-07 16:17:28", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/theme.js HTTP/1.1" 200 1943" }
+{ "time": "2024-08-07 16:17:28", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063" }
+{ "time": "2024-08-07 16:17:28", "level": "WARNING", "request_id": "", "message": "Not Found: /favicon.ico" }
+{ "time": "2024-08-07 16:17:28", "level": "WARNING", "request_id": "", "message": ""GET /favicon.ico HTTP/1.1" 404 2110" }
+{ "time": "2024-08-07 16:44:50", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 16:45:06", "level": "INFO", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 302 0" }
+{ "time": "2024-08-07 16:45:06", "level": "INFO", "request_id": "", "message": ""GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267" }
+{ "time": "2024-08-07 16:45:06", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/base.css HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 16:45:06", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 16:45:06", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 16:45:06", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/login.css HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 16:45:06", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/responsive.css HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 16:45:06", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 16:45:06", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/theme.js HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 16:45:10", "level": "INFO", "request_id": "", "message": ""POST /admin/login/?next=/admin/ HTTP/1.1" 302 0" }
+{ "time": "2024-08-07 16:45:11", "level": "ERROR", "request_id": "", "message": "Internal Server Error: /admin/" }
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedFunction: ОШИБКА:  оператор не существует: uuid = integer
+LINE 1: ...JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_us...
+                                                             ^
+HINT:  Оператор с данными именем и типами аргументов не найден. Возможно, вам следует добавить явные приведения типов.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ОШИБКА:  оператор не существует: uuid = integer
+LINE 1: ...JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_us...
+                                                             ^
+HINT:  Оператор с данными именем и типами аргументов не найден. Возможно, вам следует добавить явные приведения типов.
+
+{ "time": "2024-08-07 16:45:11", "level": "ERROR", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 500 323332" }
+{ "time": "2024-08-07 16:46:19", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 16:46:23", "level": "INFO", "request_id": "", "message": ""GET /admin/login/?next=/admin/ HTTP/1.1" 302 0" }
+{ "time": "2024-08-07 16:46:23", "level": "ERROR", "request_id": "", "message": "Internal Server Error: /admin/" }
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedFunction: ОШИБКА:  оператор не существует: uuid = integer
+LINE 1: ...JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_us...
+                                                             ^
+HINT:  Оператор с данными именем и типами аргументов не найден. Возможно, вам следует добавить явные приведения типов.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ОШИБКА:  оператор не существует: uuid = integer
+LINE 1: ...JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_us...
+                                                             ^
+HINT:  Оператор с данными именем и типами аргументов не найден. Возможно, вам следует добавить явные приведения типов.
+
+{ "time": "2024-08-07 16:46:23", "level": "ERROR", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 500 323156" }
+{ "time": "2024-08-07 16:46:37", "level": "WARNING", "request_id": "", "message": "Forbidden (CSRF token from POST incorrect.): /admin/login/" }
+{ "time": "2024-08-07 16:46:37", "level": "WARNING", "request_id": "", "message": ""POST /admin/login/?next=/admin/ HTTP/1.1" 403 2560" }
+{ "time": "2024-08-07 16:46:41", "level": "INFO", "request_id": "", "message": ""GET /admin/login/?next=/admin/ HTTP/1.1" 302 0" }
+{ "time": "2024-08-07 16:46:42", "level": "ERROR", "request_id": "", "message": "Internal Server Error: /admin/" }
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedFunction: ОШИБКА:  оператор не существует: uuid = integer
+LINE 1: ...JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_us...
+                                                             ^
+HINT:  Оператор с данными именем и типами аргументов не найден. Возможно, вам следует добавить явные приведения типов.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ОШИБКА:  оператор не существует: uuid = integer
+LINE 1: ...JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_us...
+                                                             ^
+HINT:  Оператор с данными именем и типами аргументов не найден. Возможно, вам следует добавить явные приведения типов.
+
+{ "time": "2024-08-07 16:46:42", "level": "ERROR", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 500 323019" }
+{ "time": "2024-08-07 16:46:47", "level": "INFO", "request_id": "", "message": ""GET / HTTP/1.1" 200 11047" }
+{ "time": "2024-08-07 16:48:26", "level": "INFO", "request_id": "", "message": "E:\git\practicum-notifications\notifications-admin\notifications_admin\notifications\models.py changed, reloading." }
+{ "time": "2024-08-07 16:48:26", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 17:49:09", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 17:49:14", "level": "ERROR", "request_id": "", "message": "Internal Server Error: /admin/" }
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedFunction: ОШИБКА:  оператор не существует: uuid = integer
+LINE 1: ...JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_us...
+                                                             ^
+HINT:  Оператор с данными именем и типами аргументов не найден. Возможно, вам следует добавить явные приведения типов.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ОШИБКА:  оператор не существует: uuid = integer
+LINE 1: ...JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_us...
+                                                             ^
+HINT:  Оператор с данными именем и типами аргументов не найден. Возможно, вам следует добавить явные приведения типов.
+
+{ "time": "2024-08-07 17:49:14", "level": "ERROR", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 500 393344" }
+{ "time": "2024-08-07 17:49:28", "level": "ERROR", "request_id": "", "message": "Internal Server Error: /admin/" }
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedFunction: ОШИБКА:  оператор не существует: uuid = integer
+LINE 1: ...JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_us...
+                                                             ^
+HINT:  Оператор с данными именем и типами аргументов не найден. Возможно, вам следует добавить явные приведения типов.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ОШИБКА:  оператор не существует: uuid = integer
+LINE 1: ...JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_us...
+                                                             ^
+HINT:  Оператор с данными именем и типами аргументов не найден. Возможно, вам следует добавить явные приведения типов.
+
+{ "time": "2024-08-07 17:49:28", "level": "ERROR", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 500 393609" }
+{ "time": "2024-08-07 17:49:28", "level": "WARNING", "request_id": "", "message": "Not Found: /favicon.ico" }
+{ "time": "2024-08-07 17:49:28", "level": "WARNING", "request_id": "", "message": ""GET /favicon.ico HTTP/1.1" 404 2110" }
+{ "time": "2024-08-07 17:49:32", "level": "INFO", "request_id": "", "message": ""GET / HTTP/1.1" 200 11047" }
+{ "time": "2024-08-07 17:49:36", "level": "ERROR", "request_id": "", "message": "Internal Server Error: /admin/" }
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedFunction: ОШИБКА:  оператор не существует: uuid = integer
+LINE 1: ...JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_us...
+                                                             ^
+HINT:  Оператор с данными именем и типами аргументов не найден. Возможно, вам следует добавить явные приведения типов.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ОШИБКА:  оператор не существует: uuid = integer
+LINE 1: ...JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_us...
+                                                             ^
+HINT:  Оператор с данными именем и типами аргументов не найден. Возможно, вам следует добавить явные приведения типов.
+
+{ "time": "2024-08-07 17:49:36", "level": "ERROR", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 500 393344" }
+{ "time": "2024-08-07 17:58:20", "level": "INFO", "request_id": "", "message": "E:\git\practicum-notifications\notifications-admin\notifications_admin\notifications\models.py changed, reloading." }
+{ "time": "2024-08-07 17:58:21", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 17:58:52", "level": "INFO", "request_id": "", "message": "E:\git\practicum-notifications\notifications-admin\notifications_admin\notifications\models.py changed, reloading." }
+{ "time": "2024-08-07 17:58:52", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 18:01:39", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 18:01:42", "level": "INFO", "request_id": "", "message": ""GET / HTTP/1.1" 200 11047" }
+{ "time": "2024-08-07 18:01:47", "level": "INFO", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 302 0" }
+{ "time": "2024-08-07 18:01:47", "level": "INFO", "request_id": "", "message": ""GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267" }
+{ "time": "2024-08-07 18:01:47", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/base.css HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:01:47", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:01:47", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:01:47", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/login.css HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:01:47", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/responsive.css HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:01:47", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/theme.js HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:01:47", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:01:55", "level": "INFO", "request_id": "", "message": ""POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534" }
+{ "time": "2024-08-07 18:02:57", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 18:03:00", "level": "INFO", "request_id": "", "message": ""POST /admin/login/?next=/admin/ HTTP/1.1" 302 0" }
+{ "time": "2024-08-07 18:03:00", "level": "ERROR", "request_id": "", "message": "Internal Server Error: /admin/" }
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ОШИБКА:  отношение "django_admin_log" не существует
+LINE 1: ..."."app_label", "django_content_type"."model" FROM "django_ad...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ОШИБКА:  отношение "django_admin_log" не существует
+LINE 1: ..."."app_label", "django_content_type"."model" FROM "django_ad...
+                                                             ^
+
+{ "time": "2024-08-07 18:03:00", "level": "ERROR", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 500 391088" }
+{ "time": "2024-08-07 18:03:00", "level": "WARNING", "request_id": "", "message": "Not Found: /favicon.ico" }
+{ "time": "2024-08-07 18:03:00", "level": "WARNING", "request_id": "", "message": ""GET /favicon.ico HTTP/1.1" 404 2110" }
+{ "time": "2024-08-07 18:03:08", "level": "ERROR", "request_id": "", "message": "Internal Server Error: /admin/" }
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ОШИБКА:  отношение "django_admin_log" не существует
+LINE 1: ..."."app_label", "django_content_type"."model" FROM "django_ad...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ОШИБКА:  отношение "django_admin_log" не существует
+LINE 1: ..."."app_label", "django_content_type"."model" FROM "django_ad...
+                                                             ^
+
+{ "time": "2024-08-07 18:03:08", "level": "ERROR", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 500 391088" }
+{ "time": "2024-08-07 18:03:08", "level": "WARNING", "request_id": "", "message": "Not Found: /favicon.ico" }
+{ "time": "2024-08-07 18:03:08", "level": "WARNING", "request_id": "", "message": ""GET /favicon.ico HTTP/1.1" 404 2110" }
+{ "time": "2024-08-07 18:03:09", "level": "INFO", "request_id": "", "message": ""GET /admin/login/?next=/admin/ HTTP/1.1" 302 0" }
+{ "time": "2024-08-07 18:03:09", "level": "ERROR", "request_id": "", "message": "Internal Server Error: /admin/" }
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ОШИБКА:  отношение "django_admin_log" не существует
+LINE 1: ..."."app_label", "django_content_type"."model" FROM "django_ad...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ОШИБКА:  отношение "django_admin_log" не существует
+LINE 1: ..."."app_label", "django_content_type"."model" FROM "django_ad...
+                                                             ^
+
+{ "time": "2024-08-07 18:03:09", "level": "ERROR", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 500 390647" }
+{ "time": "2024-08-07 18:03:14", "level": "ERROR", "request_id": "", "message": "Internal Server Error: /admin/" }
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ОШИБКА:  отношение "django_admin_log" не существует
+LINE 1: ..."."app_label", "django_content_type"."model" FROM "django_ad...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ОШИБКА:  отношение "django_admin_log" не существует
+LINE 1: ..."."app_label", "django_content_type"."model" FROM "django_ad...
+                                                             ^
+
+{ "time": "2024-08-07 18:03:14", "level": "ERROR", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 500 390921" }
+{ "time": "2024-08-07 18:03:15", "level": "ERROR", "request_id": "", "message": "Internal Server Error: /admin/" }
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ОШИБКА:  отношение "django_admin_log" не существует
+LINE 1: ..."."app_label", "django_content_type"."model" FROM "django_ad...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ОШИБКА:  отношение "django_admin_log" не существует
+LINE 1: ..."."app_label", "django_content_type"."model" FROM "django_ad...
+                                                             ^
+
+{ "time": "2024-08-07 18:03:15", "level": "ERROR", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 500 390647" }
+{ "time": "2024-08-07 18:04:17", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 18:04:19", "level": "INFO", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 302 0" }
+{ "time": "2024-08-07 18:04:19", "level": "INFO", "request_id": "", "message": ""GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267" }
+{ "time": "2024-08-07 18:04:20", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929" }
+{ "time": "2024-08-07 18:04:20", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/login.css HTTP/1.1" 200 958" }
+{ "time": "2024-08-07 18:04:20", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694" }
+{ "time": "2024-08-07 18:04:20", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/theme.js HTTP/1.1" 200 1943" }
+{ "time": "2024-08-07 18:04:20", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/base.css HTTP/1.1" 200 21207" }
+{ "time": "2024-08-07 18:04:20", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/responsive.css HTTP/1.1" 200 18533" }
+{ "time": "2024-08-07 18:04:20", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063" }
+{ "time": "2024-08-07 18:04:20", "level": "WARNING", "request_id": "", "message": "Not Found: /favicon.ico" }
+{ "time": "2024-08-07 18:04:20", "level": "WARNING", "request_id": "", "message": ""GET /favicon.ico HTTP/1.1" 404 2110" }
+{ "time": "2024-08-07 18:04:28", "level": "INFO", "request_id": "", "message": ""POST /admin/login/?next=/admin/ HTTP/1.1" 302 0" }
+{ "time": "2024-08-07 18:04:29", "level": "ERROR", "request_id": "", "message": "Internal Server Error: /admin/" }
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ОШИБКА:  отношение "django_admin_log" не существует
+LINE 1: ..."."app_label", "django_content_type"."model" FROM "django_ad...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\template\defaulttags.py", line 194, in render
+    len_values = len(values)
+                 ^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ОШИБКА:  отношение "django_admin_log" не существует
+LINE 1: ..."."app_label", "django_content_type"."model" FROM "django_ad...
+                                                             ^
+
+{ "time": "2024-08-07 18:04:29", "level": "ERROR", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 500 390960" }
+{ "time": "2024-08-07 18:05:20", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 18:05:24", "level": "INFO", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 200 7698" }
+{ "time": "2024-08-07 18:05:24", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929" }
+{ "time": "2024-08-07 18:05:24", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/responsive.css HTTP/1.1" 200 18533" }
+{ "time": "2024-08-07 18:05:24", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694" }
+{ "time": "2024-08-07 18:05:24", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063" }
+{ "time": "2024-08-07 18:05:24", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/dashboard.css HTTP/1.1" 200 441" }
+{ "time": "2024-08-07 18:05:24", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/theme.js HTTP/1.1" 200 1943" }
+{ "time": "2024-08-07 18:05:24", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/base.css HTTP/1.1" 200 21207" }
+{ "time": "2024-08-07 18:05:24", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380" }
+{ "time": "2024-08-07 18:05:24", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331" }
+{ "time": "2024-08-07 18:05:24", "level": "WARNING", "request_id": "", "message": "Not Found: /favicon.ico" }
+{ "time": "2024-08-07 18:05:24", "level": "WARNING", "request_id": "", "message": ""GET /favicon.ico HTTP/1.1" 404 2110" }
+{ "time": "2024-08-07 18:05:29", "level": "ERROR", "request_id": "", "message": "Internal Server Error: /admin/notifications/notificationstemplates/" }
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ОШИБКА:  отношение "notif'.'notification_templates" не существует
+LINE 1: SELECT COUNT(*) AS "__count" FROM "notif'.'notification_temp...
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+           ^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\contrib\admin\views\main.py", line 123, in __init__
+    self.get_results(request)
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\contrib\admin\views\main.py", line 279, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\core\paginator.py", line 93, in count
+    return c()
+           ^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\sql\query.py", line 568, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\sql\query.py", line 554, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\git\practicum-notifications\notifications-admin\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ОШИБКА:  отношение "notif'.'notification_templates" не существует
+LINE 1: SELECT COUNT(*) AS "__count" FROM "notif'.'notification_temp...
+                                          ^
+
+{ "time": "2024-08-07 18:05:29", "level": "ERROR", "request_id": "", "message": ""GET /admin/notifications/notificationstemplates/ HTTP/1.1" 500 185656" }
+{ "time": "2024-08-07 18:05:37", "level": "INFO", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 200 7698" }
+{ "time": "2024-08-07 18:15:22", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 18:15:23", "level": "INFO", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 200 7698" }
+{ "time": "2024-08-07 18:15:23", "level": "WARNING", "request_id": "", "message": "Not Found: /favicon.ico" }
+{ "time": "2024-08-07 18:15:23", "level": "WARNING", "request_id": "", "message": ""GET /favicon.ico HTTP/1.1" 404 2110" }
+{ "time": "2024-08-07 18:15:24", "level": "INFO", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 200 7698" }
+{ "time": "2024-08-07 18:15:25", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/theme.js HTTP/1.1" 200 1943" }
+{ "time": "2024-08-07 18:15:25", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/base.css HTTP/1.1" 200 21207" }
+{ "time": "2024-08-07 18:15:25", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063" }
+{ "time": "2024-08-07 18:15:25", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694" }
+{ "time": "2024-08-07 18:15:25", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929" }
+{ "time": "2024-08-07 18:15:25", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/responsive.css HTTP/1.1" 200 18533" }
+{ "time": "2024-08-07 18:15:25", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/dashboard.css HTTP/1.1" 200 441" }
+{ "time": "2024-08-07 18:15:25", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380" }
+{ "time": "2024-08-07 18:15:25", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331" }
+{ "time": "2024-08-07 18:15:25", "level": "WARNING", "request_id": "", "message": "Not Found: /favicon.ico" }
+{ "time": "2024-08-07 18:15:25", "level": "WARNING", "request_id": "", "message": ""GET /favicon.ico HTTP/1.1" 404 2110" }
+{ "time": "2024-08-07 18:15:28", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationstemplates/ HTTP/1.1" 200 8731" }
+{ "time": "2024-08-07 18:15:28", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347" }
+{ "time": "2024-08-07 18:15:28", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/changelists.css HTTP/1.1" 200 6566" }
+{ "time": "2024-08-07 18:15:28", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943" }
+{ "time": "2024-08-07 18:15:28", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/urlify.js HTTP/1.1" 200 7887" }
+{ "time": "2024-08-07 18:15:28", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531" }
+{ "time": "2024-08-07 18:15:28", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/core.js HTTP/1.1" 200 5682" }
+{ "time": "2024-08-07 18:15:28", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/actions.js HTTP/1.1" 200 7872" }
+{ "time": "2024-08-07 18:15:28", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:15:28", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458" }
+{ "time": "2024-08-07 18:15:28", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381" }
+{ "time": "2024-08-07 18:15:28", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/filters.js HTTP/1.1" 200 978" }
+{ "time": "2024-08-07 18:15:28", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331" }
+{ "time": "2024-08-07 18:15:29", "level": "INFO", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 200 7698" }
+{ "time": "2024-08-07 18:15:30", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 8759" }
+{ "time": "2024-08-07 18:15:30", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:15:31", "level": "INFO", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 200 7698" }
+{ "time": "2024-08-07 18:15:32", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 8765" }
+{ "time": "2024-08-07 18:15:32", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:15:33", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/add/ HTTP/1.1" 200 14798" }
+{ "time": "2024-08-07 18:15:34", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/forms.css HTTP/1.1" 200 9047" }
+{ "time": "2024-08-07 18:15:34", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586" }
+{ "time": "2024-08-07 18:15:34", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/inlines.js HTTP/1.1" 200 15526" }
+{ "time": "2024-08-07 18:15:34", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/widgets.css HTTP/1.1" 200 11900" }
+{ "time": "2024-08-07 18:15:34", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/change_form.js HTTP/1.1" 200 606" }
+{ "time": "2024-08-07 18:15:34", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:15:34", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/inline-delete.svg HTTP/1.1" 200 560" }
+{ "time": "2024-08-07 18:15:50", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 8759" }
+{ "time": "2024-08-07 18:15:50", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:15:52", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/add/ HTTP/1.1" 200 10884" }
+{ "time": "2024-08-07 18:15:52", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581" }
+{ "time": "2024-08-07 18:15:52", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:15:55", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/add/?_to_field=id&_popup=1 HTTP/1.1" 200 9725" }
+{ "time": "2024-08-07 18:15:55", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:15:58", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/add/?_to_field=id&_popup=1 HTTP/1.1" 200 9725" }
+{ "time": "2024-08-07 18:15:58", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:16:41", "level": "INFO", "request_id": "", "message": ""POST /admin/notifications/notificationscontents/add/?_to_field=id&_popup=1 HTTP/1.1" 200 10013" }
+{ "time": "2024-08-07 18:16:41", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:17:04", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/add/?_to_field=id&_popup=1 HTTP/1.1" 200 9725" }
+{ "time": "2024-08-07 18:17:04", "level": "INFO", "request_id": "", "message": "- Broken pipe from ('127.0.0.1', 64807)" }
+{ "time": "2024-08-07 18:17:04", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:17:21", "level": "INFO", "request_id": "", "message": ""POST /admin/notifications/notificationscontents/add/?_to_field=id&_popup=1 HTTP/1.1" 200 463" }
+{ "time": "2024-08-07 18:17:21", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/popup_response.js HTTP/1.1" 200 551" }
+{ "time": "2024-08-07 18:17:30", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 10193" }
+{ "time": "2024-08-07 18:17:30", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:17:31", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/4c490f3c-43b2-493b-a314-fbbf02fb8a5d/change/ HTTP/1.1" 200 15552" }
+{ "time": "2024-08-07 18:17:31", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:17:51", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 8759" }
+{ "time": "2024-08-07 18:17:51", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:17:51", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationstemplates/ HTTP/1.1" 200 8731" }
+{ "time": "2024-08-07 18:17:51", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:17:53", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationstemplates/add/ HTTP/1.1" 200 10300" }
+{ "time": "2024-08-07 18:17:53", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:17:57", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 8759" }
+{ "time": "2024-08-07 18:17:57", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:17:57", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 10193" }
+{ "time": "2024-08-07 18:17:57", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:17:59", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/4c490f3c-43b2-493b-a314-fbbf02fb8a5d/change/ HTTP/1.1" 200 15552" }
+{ "time": "2024-08-07 18:17:59", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:19:26", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 8759" }
+{ "time": "2024-08-07 18:19:26", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:19:27", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationstemplates/ HTTP/1.1" 200 8731" }
+{ "time": "2024-08-07 18:19:27", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:19:27", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 8759" }
+{ "time": "2024-08-07 18:19:27", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:19:28", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 10193" }
+{ "time": "2024-08-07 18:19:28", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:19:29", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 8759" }
+{ "time": "2024-08-07 18:19:29", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:19:30", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 8759" }
+{ "time": "2024-08-07 18:19:30", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:19:32", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 10193" }
+{ "time": "2024-08-07 18:19:32", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:19:33", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/4c490f3c-43b2-493b-a314-fbbf02fb8a5d/change/ HTTP/1.1" 200 15552" }
+{ "time": "2024-08-07 18:19:33", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:19:36", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 8759" }
+{ "time": "2024-08-07 18:19:36", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:19:38", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/add/ HTTP/1.1" 200 11017" }
+{ "time": "2024-08-07 18:19:38", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:19:43", "level": "INFO", "request_id": "", "message": ""POST /admin/notifications/notifications/add/ HTTP/1.1" 302 0" }
+{ "time": "2024-08-07 18:19:43", "level": "INFO", "request_id": "", "message": ""POST /admin/notifications/notifications/add/ HTTP/1.1" 302 0" }
+{ "time": "2024-08-07 18:19:43", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 11113" }
+{ "time": "2024-08-07 18:19:43", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:19:43", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436" }
+{ "time": "2024-08-07 18:19:45", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 10518" }
+{ "time": "2024-08-07 18:19:46", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:19:48", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 10193" }
+{ "time": "2024-08-07 18:19:49", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:19:49", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 10518" }
+{ "time": "2024-08-07 18:19:49", "level": "INFO", "request_id": "", "message": "- Broken pipe from ('127.0.0.1', 64809)" }
+{ "time": "2024-08-07 18:19:49", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:19:55", "level": "INFO", "request_id": "", "message": ""POST /admin/notifications/notifications/ HTTP/1.1" 200 9060" }
+{ "time": "2024-08-07 18:19:55", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/cancel.js HTTP/1.1" 200 884" }
+{ "time": "2024-08-07 18:19:56", "level": "INFO", "request_id": "", "message": ""POST /admin/notifications/notifications/ HTTP/1.1" 302 0" }
+{ "time": "2024-08-07 18:19:56", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 10336" }
+{ "time": "2024-08-07 18:19:56", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:19:59", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 10193" }
+{ "time": "2024-08-07 18:19:59", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:20:00", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 10175" }
+{ "time": "2024-08-07 18:20:00", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:20:01", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 10193" }
+{ "time": "2024-08-07 18:20:01", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:20:02", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/4c490f3c-43b2-493b-a314-fbbf02fb8a5d/change/ HTTP/1.1" 200 16317" }
+{ "time": "2024-08-07 18:20:02", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:21:34", "level": "INFO", "request_id": "", "message": "E:\git\practicum-notifications\notifications-admin\notifications_admin\config\components\database.py changed, reloading." }
+{ "time": "2024-08-07 18:21:35", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 18:21:43", "level": "INFO", "request_id": "", "message": "E:\git\practicum-notifications\notifications-admin\notifications_admin\config\components\database.py changed, reloading." }
+{ "time": "2024-08-07 18:21:44", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 18:23:11", "level": "INFO", "request_id": "", "message": "E:\git\practicum-notifications\notifications-admin\notifications_admin\notifications\models.py changed, reloading." }
+{ "time": "2024-08-07 18:23:11", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 18:23:46", "level": "INFO", "request_id": "", "message": "E:\git\practicum-notifications\notifications-admin\notifications_admin\notifications\models.py changed, reloading." }
+{ "time": "2024-08-07 18:23:47", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 18:24:06", "level": "INFO", "request_id": "", "message": "E:\git\practicum-notifications\notifications-admin\notifications_admin\notifications\models.py changed, reloading." }
+{ "time": "2024-08-07 18:24:07", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 18:24:21", "level": "INFO", "request_id": "", "message": "E:\git\practicum-notifications\notifications-admin\notifications_admin\notifications\models.py changed, reloading." }
+{ "time": "2024-08-07 18:24:22", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 18:24:42", "level": "INFO", "request_id": "", "message": "E:\git\practicum-notifications\notifications-admin\notifications_admin\notifications\models.py changed, reloading." }
+{ "time": "2024-08-07 18:24:43", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 18:24:50", "level": "INFO", "request_id": "", "message": "E:\git\practicum-notifications\notifications-admin\notifications_admin\notifications\models.py changed, reloading." }
+{ "time": "2024-08-07 18:24:51", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 18:26:22", "level": "INFO", "request_id": "", "message": "E:\git\practicum-notifications\notifications-admin\notifications_admin\notifications\models.py changed, reloading." }
+{ "time": "2024-08-07 18:26:22", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 18:31:28", "level": "INFO", "request_id": "", "message": "E:\git\practicum-notifications\notifications-admin\notifications_admin\notifications\migrations\0001_initial.py changed, reloading." }
+{ "time": "2024-08-07 18:31:29", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 18:31:38", "level": "INFO", "request_id": "", "message": "E:\git\practicum-notifications\notifications-admin\notifications_admin\notifications\migrations\0001_initial.py changed, reloading." }
+{ "time": "2024-08-07 18:31:39", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 18:41:46", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 18:41:51", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/4c490f3c-43b2-493b-a314-fbbf02fb8a5d/change/ HTTP/1.1" 302 0" }
+{ "time": "2024-08-07 18:41:51", "level": "INFO", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 200 9507" }
+{ "time": "2024-08-07 18:41:51", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/responsive.css HTTP/1.1" 200 18533" }
+{ "time": "2024-08-07 18:41:51", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694" }
+{ "time": "2024-08-07 18:41:51", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929" }
+{ "time": "2024-08-07 18:41:51", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/dashboard.css HTTP/1.1" 200 441" }
+{ "time": "2024-08-07 18:41:51", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063" }
+{ "time": "2024-08-07 18:41:51", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/base.css HTTP/1.1" 200 21207" }
+{ "time": "2024-08-07 18:41:51", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/theme.js HTTP/1.1" 200 1943" }
+{ "time": "2024-08-07 18:41:51", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380" }
+{ "time": "2024-08-07 18:41:51", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331" }
+{ "time": "2024-08-07 18:41:52", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504" }
+{ "time": "2024-08-07 18:41:52", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392" }
+{ "time": "2024-08-07 18:41:52", "level": "WARNING", "request_id": "", "message": "Not Found: /favicon.ico" }
+{ "time": "2024-08-07 18:41:52", "level": "WARNING", "request_id": "", "message": ""GET /favicon.ico HTTP/1.1" 404 2110" }
+{ "time": "2024-08-07 18:41:54", "level": "INFO", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 200 9256" }
+{ "time": "2024-08-07 18:41:54", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694" }
+{ "time": "2024-08-07 18:41:54", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/theme.js HTTP/1.1" 200 1943" }
+{ "time": "2024-08-07 18:41:54", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929" }
+{ "time": "2024-08-07 18:41:54", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/dashboard.css HTTP/1.1" 200 441" }
+{ "time": "2024-08-07 18:41:54", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/base.css HTTP/1.1" 200 21207" }
+{ "time": "2024-08-07 18:41:54", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/responsive.css HTTP/1.1" 200 18533" }
+{ "time": "2024-08-07 18:41:54", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063" }
+{ "time": "2024-08-07 18:41:54", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331" }
+{ "time": "2024-08-07 18:41:54", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392" }
+{ "time": "2024-08-07 18:41:54", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380" }
+{ "time": "2024-08-07 18:41:54", "level": "WARNING", "request_id": "", "message": "Not Found: /favicon.ico" }
+{ "time": "2024-08-07 18:41:54", "level": "WARNING", "request_id": "", "message": ""GET /favicon.ico HTTP/1.1" 404 2110" }
+{ "time": "2024-08-07 18:41:56", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 8765" }
+{ "time": "2024-08-07 18:41:56", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/changelists.css HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:41:56", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:41:56", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:41:56", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/core.js HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:41:56", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:41:56", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/actions.js HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:41:56", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:41:56", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/urlify.js HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:41:56", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:41:56", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/filters.js HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:41:56", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:41:56", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:41:59", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/add/ HTTP/1.1" 200 14798" }
+{ "time": "2024-08-07 18:41:59", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:41:59", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/forms.css HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:41:59", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/inlines.js HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:41:59", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/widgets.css HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:41:59", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/change_form.js HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:41:59", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:41:59", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/inline-delete.svg HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:42:01", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 8765" }
+{ "time": "2024-08-07 18:42:02", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 8759" }
+{ "time": "2024-08-07 18:42:02", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:42:03", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/add/ HTTP/1.1" 200 10884" }
+{ "time": "2024-08-07 18:42:03", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:42:04", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:42:05", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/add/?_to_field=id&_popup=1 HTTP/1.1" 200 9725" }
+{ "time": "2024-08-07 18:42:05", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:42:17", "level": "INFO", "request_id": "", "message": ""POST /admin/notifications/notificationscontents/add/?_to_field=id&_popup=1 HTTP/1.1" 200 463" }
+{ "time": "2024-08-07 18:42:17", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/popup_response.js HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:42:20", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 8759" }
+{ "time": "2024-08-07 18:42:20", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:42:21", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 10601" }
+{ "time": "2024-08-07 18:42:22", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:42:24", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 8759" }
+{ "time": "2024-08-07 18:42:24", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:42:25", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 8759" }
+{ "time": "2024-08-07 18:42:25", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:42:26", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 8759" }
+{ "time": "2024-08-07 18:42:26", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/changelists.css HTTP/1.1" 200 6566" }
+{ "time": "2024-08-07 18:42:26", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929" }
+{ "time": "2024-08-07 18:42:26", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/base.css HTTP/1.1" 200 21207" }
+{ "time": "2024-08-07 18:42:26", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694" }
+{ "time": "2024-08-07 18:42:26", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/responsive.css HTTP/1.1" 200 18533" }
+{ "time": "2024-08-07 18:42:26", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347" }
+{ "time": "2024-08-07 18:42:26", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/core.js HTTP/1.1" 200 5682" }
+{ "time": "2024-08-07 18:42:26", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943" }
+{ "time": "2024-08-07 18:42:26", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/actions.js HTTP/1.1" 200 7872" }
+{ "time": "2024-08-07 18:42:26", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/urlify.js HTTP/1.1" 200 7887" }
+{ "time": "2024-08-07 18:42:26", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531" }
+{ "time": "2024-08-07 18:42:26", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458" }
+{ "time": "2024-08-07 18:42:26", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381" }
+{ "time": "2024-08-07 18:42:26", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/theme.js HTTP/1.1" 200 1943" }
+{ "time": "2024-08-07 18:42:26", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063" }
+{ "time": "2024-08-07 18:42:26", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/filters.js HTTP/1.1" 200 978" }
+{ "time": "2024-08-07 18:42:26", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:42:26", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331" }
+{ "time": "2024-08-07 18:42:26", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331" }
+{ "time": "2024-08-07 18:42:26", "level": "WARNING", "request_id": "", "message": "Not Found: /favicon.ico" }
+{ "time": "2024-08-07 18:42:26", "level": "WARNING", "request_id": "", "message": ""GET /favicon.ico HTTP/1.1" 404 2110" }
+{ "time": "2024-08-07 18:42:28", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/add/ HTTP/1.1" 200 11017" }
+{ "time": "2024-08-07 18:42:28", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:42:31", "level": "INFO", "request_id": "", "message": ""POST /admin/notifications/notifications/add/ HTTP/1.1" 302 0" }
+{ "time": "2024-08-07 18:42:31", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 10749" }
+{ "time": "2024-08-07 18:42:31", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:42:31", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0" }
+{ "time": "2024-08-07 18:42:36", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/c6fccc30-2c8b-4a2a-a01f-88fd918a7798/change/ HTTP/1.1" 200 11452" }
+{ "time": "2024-08-07 18:42:36", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:42:37", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 10425" }
+{ "time": "2024-08-07 18:42:38", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:42:39", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 10601" }
+{ "time": "2024-08-07 18:42:39", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:42:40", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 10425" }
+{ "time": "2024-08-07 18:42:40", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:42:42", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 10425" }
+{ "time": "2024-08-07 18:42:43", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:42:58", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 10601" }
+{ "time": "2024-08-07 18:42:59", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:42:59", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 10425" }
+{ "time": "2024-08-07 18:42:59", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:43:04", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 10601" }
+{ "time": "2024-08-07 18:43:04", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:43:07", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 10425" }
+{ "time": "2024-08-07 18:43:07", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:44:04", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/c6fccc30-2c8b-4a2a-a01f-88fd918a7798/change/ HTTP/1.1" 200 11452" }
+{ "time": "2024-08-07 18:44:04", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:44:15", "level": "INFO", "request_id": "", "message": ""POST /admin/notifications/notifications/c6fccc30-2c8b-4a2a-a01f-88fd918a7798/change/ HTTP/1.1" 302 0" }
+{ "time": "2024-08-07 18:44:15", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 10751" }
+{ "time": "2024-08-07 18:44:15", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:44:20", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 10601" }
+{ "time": "2024-08-07 18:44:21", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:44:23", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/0e85685c-6098-443c-9503-6f56ca1b9455/change/ HTTP/1.1" 200 16319" }
+{ "time": "2024-08-07 18:44:23", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:44:26", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationstemplates/ HTTP/1.1" 200 8731" }
+{ "time": "2024-08-07 18:44:26", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:44:27", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationstemplates/add/ HTTP/1.1" 200 11113" }
+{ "time": "2024-08-07 18:44:27", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:44:36", "level": "INFO", "request_id": "", "message": ""POST /admin/notifications/notificationstemplates/add/ HTTP/1.1" 302 0" }
+{ "time": "2024-08-07 18:44:36", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationstemplates/ HTTP/1.1" 200 10611" }
+{ "time": "2024-08-07 18:44:36", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:44:40", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 10425" }
+{ "time": "2024-08-07 18:44:41", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:44:42", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 10601" }
+{ "time": "2024-08-07 18:44:42", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:44:43", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationstemplates/ HTTP/1.1" 200 10279" }
+{ "time": "2024-08-07 18:44:43", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:44:43", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 10425" }
+{ "time": "2024-08-07 18:44:44", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:46:13", "level": "INFO", "request_id": "", "message": "E:\git\practicum-notifications\notifications-admin\notifications_admin\notifications\admin.py changed, reloading." }
+{ "time": "2024-08-07 18:46:14", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 18:46:19", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 10425" }
+{ "time": "2024-08-07 18:46:19", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:46:19", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929" }
+{ "time": "2024-08-07 18:46:19", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/changelists.css HTTP/1.1" 200 6566" }
+{ "time": "2024-08-07 18:46:19", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347" }
+{ "time": "2024-08-07 18:46:19", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/core.js HTTP/1.1" 200 5682" }
+{ "time": "2024-08-07 18:46:19", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/base.css HTTP/1.1" 200 21207" }
+{ "time": "2024-08-07 18:46:19", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943" }
+{ "time": "2024-08-07 18:46:19", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/actions.js HTTP/1.1" 200 7872" }
+{ "time": "2024-08-07 18:46:19", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694" }
+{ "time": "2024-08-07 18:46:19", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/urlify.js HTTP/1.1" 200 7887" }
+{ "time": "2024-08-07 18:46:19", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531" }
+{ "time": "2024-08-07 18:46:19", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/responsive.css HTTP/1.1" 200 18533" }
+{ "time": "2024-08-07 18:46:19", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381" }
+{ "time": "2024-08-07 18:46:19", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458" }
+{ "time": "2024-08-07 18:46:19", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/theme.js HTTP/1.1" 200 1943" }
+{ "time": "2024-08-07 18:46:19", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063" }
+{ "time": "2024-08-07 18:46:19", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/filters.js HTTP/1.1" 200 978" }
+{ "time": "2024-08-07 18:46:19", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331" }
+{ "time": "2024-08-07 18:46:19", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331" }
+{ "time": "2024-08-07 18:46:19", "level": "WARNING", "request_id": "", "message": "Not Found: /favicon.ico" }
+{ "time": "2024-08-07 18:46:19", "level": "WARNING", "request_id": "", "message": ""GET /favicon.ico HTTP/1.1" 404 2110" }
+{ "time": "2024-08-07 18:46:21", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationstemplates/ HTTP/1.1" 200 10821" }
+{ "time": "2024-08-07 18:46:21", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:46:31", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 10425" }
+{ "time": "2024-08-07 18:46:31", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:46:31", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 10601" }
+{ "time": "2024-08-07 18:46:31", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:53:32", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 18:53:32", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 8676" }
+{ "time": "2024-08-07 18:53:33", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:53:33", "level": "WARNING", "request_id": "", "message": "Not Found: /favicon.ico" }
+{ "time": "2024-08-07 18:53:33", "level": "WARNING", "request_id": "", "message": ""GET /favicon.ico HTTP/1.1" 404 2110" }
+{ "time": "2024-08-07 18:53:33", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 8676" }
+{ "time": "2024-08-07 18:53:33", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:53:33", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/changelists.css HTTP/1.1" 200 6566" }
+{ "time": "2024-08-07 18:53:33", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347" }
+{ "time": "2024-08-07 18:53:33", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694" }
+{ "time": "2024-08-07 18:53:33", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/core.js HTTP/1.1" 200 5682" }
+{ "time": "2024-08-07 18:53:33", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/base.css HTTP/1.1" 200 21207" }
+{ "time": "2024-08-07 18:53:33", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929" }
+{ "time": "2024-08-07 18:53:33", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943" }
+{ "time": "2024-08-07 18:53:33", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/responsive.css HTTP/1.1" 200 18533" }
+{ "time": "2024-08-07 18:53:33", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/actions.js HTTP/1.1" 200 7872" }
+{ "time": "2024-08-07 18:53:33", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/urlify.js HTTP/1.1" 200 7887" }
+{ "time": "2024-08-07 18:53:33", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531" }
+{ "time": "2024-08-07 18:53:33", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381" }
+{ "time": "2024-08-07 18:53:33", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458" }
+{ "time": "2024-08-07 18:53:33", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/theme.js HTTP/1.1" 200 1943" }
+{ "time": "2024-08-07 18:53:33", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063" }
+{ "time": "2024-08-07 18:53:33", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/filters.js HTTP/1.1" 200 978" }
+{ "time": "2024-08-07 18:53:33", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331" }
+{ "time": "2024-08-07 18:53:33", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331" }
+{ "time": "2024-08-07 18:53:33", "level": "WARNING", "request_id": "", "message": "Not Found: /favicon.ico" }
+{ "time": "2024-08-07 18:53:33", "level": "WARNING", "request_id": "", "message": ""GET /favicon.ico HTTP/1.1" 404 2110" }
+{ "time": "2024-08-07 18:53:35", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 8685" }
+{ "time": "2024-08-07 18:53:35", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:53:36", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationstemplates/ HTTP/1.1" 200 9225" }
+{ "time": "2024-08-07 18:53:36", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:53:36", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 8685" }
+{ "time": "2024-08-07 18:53:36", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:53:37", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 8676" }
+{ "time": "2024-08-07 18:53:37", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:53:38", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/add/ HTTP/1.1" 200 14606" }
+{ "time": "2024-08-07 18:53:39", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:53:47", "level": "INFO", "request_id": "", "message": ""POST /admin/notifications/notificationscontents/add/ HTTP/1.1" 200 14876" }
+{ "time": "2024-08-07 18:53:47", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:53:51", "level": "INFO", "request_id": "", "message": ""POST /admin/notifications/notificationscontents/add/ HTTP/1.1" 200 14875" }
+{ "time": "2024-08-07 18:53:52", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:54:05", "level": "INFO", "request_id": "", "message": ""POST /admin/notifications/notificationscontents/add/ HTTP/1.1" 200 14885" }
+{ "time": "2024-08-07 18:54:05", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:54:22", "level": "INFO", "request_id": "", "message": ""POST /admin/notifications/notificationscontents/add/ HTTP/1.1" 302 0" }
+{ "time": "2024-08-07 18:54:22", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 10797" }
+{ "time": "2024-08-07 18:54:23", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:54:28", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 8685" }
+{ "time": "2024-08-07 18:54:28", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:54:29", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/add/ HTTP/1.1" 200 10900" }
+{ "time": "2024-08-07 18:54:29", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:54:32", "level": "INFO", "request_id": "", "message": ""POST /admin/notifications/notifications/add/ HTTP/1.1" 302 0" }
+{ "time": "2024-08-07 18:54:32", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 10655" }
+{ "time": "2024-08-07 18:54:33", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:54:38", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/fa981916-9109-41e8-bf65-c5343956db1c/change/ HTTP/1.1" 200 11345" }
+{ "time": "2024-08-07 18:54:38", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:54:40", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 10341" }
+{ "time": "2024-08-07 18:54:46", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 10472" }
+{ "time": "2024-08-07 18:54:46", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:54:53", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 10341" }
+{ "time": "2024-08-07 18:54:53", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:54:57", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationstemplates/ HTTP/1.1" 200 9225" }
+{ "time": "2024-08-07 18:54:57", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:54:59", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationstemplates/add/ HTTP/1.1" 200 11066" }
+{ "time": "2024-08-07 18:54:59", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:55:10", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 10341" }
+{ "time": "2024-08-07 18:55:10", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:55:10", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 10472" }
+{ "time": "2024-08-07 18:55:10", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 18:56:32", "level": "INFO", "request_id": "", "message": "E:\git\practicum-notifications\notifications-admin\notifications_admin\config\settings.py changed, reloading." }
+{ "time": "2024-08-07 18:56:32", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 19:12:46", "level": "INFO", "request_id": "", "message": "Watching for file changes with StatReloader" }
+{ "time": "2024-08-07 19:12:50", "level": "INFO", "request_id": "", "message": ""GET / HTTP/1.1" 200 11047" }
+{ "time": "2024-08-07 19:12:51", "level": "WARNING", "request_id": "", "message": "Not Found: /favicon.ico" }
+{ "time": "2024-08-07 19:12:51", "level": "WARNING", "request_id": "", "message": ""GET /favicon.ico HTTP/1.1" 404 2110" }
+{ "time": "2024-08-07 19:12:56", "level": "INFO", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 302 0" }
+{ "time": "2024-08-07 19:12:56", "level": "INFO", "request_id": "", "message": ""GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267" }
+{ "time": "2024-08-07 19:12:56", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694" }
+{ "time": "2024-08-07 19:12:56", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/login.css HTTP/1.1" 200 958" }
+{ "time": "2024-08-07 19:12:56", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/responsive.css HTTP/1.1" 200 18533" }
+{ "time": "2024-08-07 19:12:56", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929" }
+{ "time": "2024-08-07 19:12:56", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/base.css HTTP/1.1" 200 21207" }
+{ "time": "2024-08-07 19:12:56", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/theme.js HTTP/1.1" 200 1943" }
+{ "time": "2024-08-07 19:12:56", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063" }
+{ "time": "2024-08-07 19:13:05", "level": "WARNING", "request_id": "", "message": "Not Found: /favicon.ico" }
+{ "time": "2024-08-07 19:13:05", "level": "WARNING", "request_id": "", "message": ""GET /favicon.ico HTTP/1.1" 404 2110" }
+{ "time": "2024-08-07 19:13:05", "level": "INFO", "request_id": "", "message": ""POST /admin/login/?next=/admin/ HTTP/1.1" 302 0" }
+{ "time": "2024-08-07 19:13:05", "level": "INFO", "request_id": "", "message": ""GET /admin/ HTTP/1.1" 200 11725" }
+{ "time": "2024-08-07 19:13:05", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/dashboard.css HTTP/1.1" 200 441" }
+{ "time": "2024-08-07 19:13:05", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380" }
+{ "time": "2024-08-07 19:13:05", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331" }
+{ "time": "2024-08-07 19:13:05", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392" }
+{ "time": "2024-08-07 19:13:08", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 10535" }
+{ "time": "2024-08-07 19:13:08", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/changelists.css HTTP/1.1" 200 6566" }
+{ "time": "2024-08-07 19:13:08", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347" }
+{ "time": "2024-08-07 19:13:08", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/urlify.js HTTP/1.1" 200 7887" }
+{ "time": "2024-08-07 19:13:08", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531" }
+{ "time": "2024-08-07 19:13:08", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/core.js HTTP/1.1" 200 5682" }
+{ "time": "2024-08-07 19:13:08", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943" }
+{ "time": "2024-08-07 19:13:08", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/actions.js HTTP/1.1" 200 7872" }
+{ "time": "2024-08-07 19:13:08", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 19:13:08", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381" }
+{ "time": "2024-08-07 19:13:08", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458" }
+{ "time": "2024-08-07 19:13:08", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/filters.js HTTP/1.1" 200 978" }
+{ "time": "2024-08-07 19:13:08", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331" }
+{ "time": "2024-08-07 19:13:09", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/fa981916-9109-41e8-bf65-c5343956db1c/change/ HTTP/1.1" 200 11530" }
+{ "time": "2024-08-07 19:13:10", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/forms.css HTTP/1.1" 200 9047" }
+{ "time": "2024-08-07 19:13:10", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586" }
+{ "time": "2024-08-07 19:13:10", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581" }
+{ "time": "2024-08-07 19:13:10", "level": "INFO", "request_id": "", "message": ""GET /static/admin/css/widgets.css HTTP/1.1" 200 11900" }
+{ "time": "2024-08-07 19:13:10", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/change_form.js HTTP/1.1" 200 606" }
+{ "time": "2024-08-07 19:13:10", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 19:13:11", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 10535" }
+{ "time": "2024-08-07 19:13:13", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 10639" }
+{ "time": "2024-08-07 19:13:13", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 19:13:18", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/2ea169f5-feec-437b-b802-fabc00fc270e/change/ HTTP/1.1" 200 16396" }
+{ "time": "2024-08-07 19:13:18", "level": "INFO", "request_id": "", "message": ""GET /static/admin/js/inlines.js HTTP/1.1" 200 15526" }
+{ "time": "2024-08-07 19:13:18", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 19:13:18", "level": "INFO", "request_id": "", "message": ""GET /static/admin/img/inline-delete.svg HTTP/1.1" 200 560" }
+{ "time": "2024-08-07 19:13:20", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 10639" }
+{ "time": "2024-08-07 19:13:22", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationstemplates/ HTTP/1.1" 200 9303" }
+{ "time": "2024-08-07 19:13:22", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 19:13:29", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationstemplates/?channels__exact=sms HTTP/1.1" 200 9474" }
+{ "time": "2024-08-07 19:13:29", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 19:13:30", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationstemplates/?channels__exact=email HTTP/1.1" 200 9476" }
+{ "time": "2024-08-07 19:13:30", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 19:13:31", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationstemplates/?channels__exact=websocket HTTP/1.1" 200 9480" }
+{ "time": "2024-08-07 19:13:31", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 19:13:31", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationstemplates/?channels__exact=sms HTTP/1.1" 200 9474" }
+{ "time": "2024-08-07 19:13:31", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 19:13:32", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationstemplates/?channels__exact=email HTTP/1.1" 200 9476" }
+{ "time": "2024-08-07 19:13:32", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 19:13:32", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationstemplates/?channels__exact=websocket HTTP/1.1" 200 9480" }
+{ "time": "2024-08-07 19:13:32", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 19:13:35", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 10639" }
+{ "time": "2024-08-07 19:13:35", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 19:13:35", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 10535" }
+{ "time": "2024-08-07 19:13:35", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 19:13:36", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationstemplates/ HTTP/1.1" 200 9303" }
+{ "time": "2024-08-07 19:13:36", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 19:15:02", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationscontents/ HTTP/1.1" 200 10639" }
+{ "time": "2024-08-07 19:15:02", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 19:15:02", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notifications/ HTTP/1.1" 200 10535" }
+{ "time": "2024-08-07 19:15:02", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }
+{ "time": "2024-08-07 19:15:03", "level": "INFO", "request_id": "", "message": ""GET /admin/notifications/notificationstemplates/ HTTP/1.1" 200 9303" }
+{ "time": "2024-08-07 19:15:03", "level": "INFO", "request_id": "", "message": ""GET /admin/jsi18n/ HTTP/1.1" 200 16066" }

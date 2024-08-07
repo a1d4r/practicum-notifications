@@ -8,6 +8,15 @@ name = "notifications-admin"
 
 [tool.poetry.dependencies]  # https://python-poetry.org/docs/dependency-specification/
 python = "^3.12"
+django = "4.2.5"
+django-debug-toolbar = "4.3.0"
+django-extensions = "3.2.3"
+django-shell-plus = "1.1.7"
+django-split-settings = "1.2.0"
+psycopg2-binary = "2.9.9"
+django-request-id = "1.0.0"
+python-dotenv = "1.0.1"
+requests = "^2.32.3"
 
 [tool.poetry.group.dev.dependencies]  # https://python-poetry.org/docs/master/managing-dependencies/
 mypy = "^1.11.1"
