@@ -1,7 +1,16 @@
 import uuid
 
 from django.db import models
+from django.core.exceptions import ValidationError
 from django.utils.translation import gettext_lazy as _
+from jinja2 import Environment, TemplateSyntaxError
+
+
+def jinja_validator(value: str):
+    try:
+        Environment().parse(value)
+    except TemplateSyntaxError as err:
+        raise ValidationError(_(f'Template syntax error: {err}'))
 
 
 class TimeStampedMixin(models.Model):
@@ -38,7 +47,7 @@ class NotificationsTemplates(UUIDMixin, TimeStampedMixin):
         ACTOR = 'websocket', _('WebSocket')
 
     event_type = models.CharField(_('event type'), max_length=255)
-    template_text = models.TextField(_('Template'))
+    template_text = models.TextField(_('Template'), validators=[jinja_validator])
     channels = models.CharField(
         choices=Channel.choices,
         max_length=255,
