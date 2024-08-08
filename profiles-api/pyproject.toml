@@ -9,7 +9,8 @@ name = "profiles-api"
 [tool.poetry.dependencies]  # https://python-poetry.org/docs/dependency-specification/
 python = "^3.12"
 pydantic = "^2.6.4"
-fastapi = {extras = ["standart"], version = "^0.112.0"}
+fastapi = { extras = ["standart"], version = "^0.112.0" }
+uvicorn = { extras = ["standart"], version = "^0.30.5" }
 
 [tool.poetry.group.dev.dependencies]  # https://python-poetry.org/docs/master/managing-dependencies/
 mypy = "^1.11.1"
@@ -156,12 +157,12 @@ split-on-trailing-comma = false
 
 [tool.ruff.lint.pep8-naming]
 classmethod-decorators = [
-    # Allow Pydantic's `@validator` decorator to trigger class method treatment.
-    "pydantic.validator",
-    # Allow SQLAlchemy's dynamic decorators, like `@field.expression`, to trigger class method treatment.
-    "declared_attr",
-    "expression",
-    "comparator",
+  # Allow Pydantic's `@validator` decorator to trigger class method treatment.
+  "pydantic.validator",
+  # Allow SQLAlchemy's dynamic decorators, like `@field.expression`, to trigger class method treatment.
+  "declared_attr",
+  "expression",
+  "comparator",
 ]
 
 [tool.ruff.lint.pycodestyle]  # https://docs.astral.sh/ruff/settings/#pycodestyle
@@ -183,5 +184,5 @@ quote-style = "double"
 skip-magic-trailing-comma = true
 
 [tool.deptry.per_rule_ignores]
-DEP002 = ["fastapi"]
+DEP002 = ["uvicorn"]
 DEP003 = []
