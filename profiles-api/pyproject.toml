@@ -11,6 +11,9 @@ python = "^3.12"
 pydantic = "^2.6.4"
 fastapi = { extras = ["standart"], version = "^0.112.0" }
 uvicorn = { extras = ["standart"], version = "^0.30.5" }
+polyfactory = "^2.16.2"
+faker = "^26.3.0"
+gunicorn = "^22.0.0"
 
 [tool.poetry.group.dev.dependencies]  # https://python-poetry.org/docs/master/managing-dependencies/
 mypy = "^1.11.1"
@@ -22,6 +25,7 @@ typeguard = "^4.3.0"
 ruff = "^0.5.5"
 safety = "^3.2.4"
 deptry = "^0.18.0"
+httpx = "^0.27.0"
 
 [tool.mypy]  # https://mypy.readthedocs.io/en/latest/config_file.html#using-a-pyproject-toml-file
 junit_xml = "reports/mypy.xml"
