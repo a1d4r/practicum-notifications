@@ -29,8 +29,10 @@ def test_get_user_profiles():
     # Arrange
     group_id = uuid4()
 
+    # Act
     response = client.get(f"/groups/{group_id}/profiles")
 
+    # Assert
     assert response.status_code == 200
     body = response.json()
     assert len(body["profiles"]) == body["total"]
