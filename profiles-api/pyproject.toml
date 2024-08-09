@@ -188,5 +188,5 @@ quote-style = "double"
 skip-magic-trailing-comma = true
 
 [tool.deptry.per_rule_ignores]
-DEP002 = ["uvicorn"]
+DEP002 = ["uvicorn", "gunicorn"]
 DEP003 = []
