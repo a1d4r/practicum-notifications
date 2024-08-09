@@ -12,7 +12,8 @@ include(
     'components/middleware.py',
     'components/templates.py',
     'components/auth_password_validators.py',
-    'components/logging.py'
+    'components/celery_settings.py',
+    # 'components/logging.py'
 )
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -40,5 +41,7 @@ USE_I18N = True
 USE_TZ = True
 
 STATIC_URL = 'static/'
+
+NOTIFICATION_API = os.environ.get('NOTIFICATION_API')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

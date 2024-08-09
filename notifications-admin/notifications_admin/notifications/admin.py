@@ -1,6 +1,5 @@
 from django.contrib import admin
 from django import forms
-from django.contrib.postgres.forms import SimpleArrayField
 
 from .models import Notifications, NotificationsContents, NotificationsTemplates
 
@@ -25,7 +24,7 @@ class NotificationsTemplatesAdminForm(forms.ModelForm):
 
 @admin.register(Notifications)
 class NotificationsAdmin(admin.ModelAdmin):
-    list_display = ('content_id', 'last_sent_at',)
+    list_display = ('content_id', 'created_at', 'last_sent_at',)
 
 
 @admin.register(NotificationsContents)

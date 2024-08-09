@@ -17,6 +17,10 @@ psycopg2-binary = "2.9.9"
 django-request-id = "1.0.0"
 python-dotenv = "1.0.1"
 requests = "^2.32.3"
+celery = "^5.4.0"
+django-celery-beat = "^2.6.0"
+django-celery-results = "^2.5.1"
+eventlet = "^0.36.1"
 
 [tool.poetry.group.dev.dependencies]  # https://python-poetry.org/docs/master/managing-dependencies/
 mypy = "^1.11.1"
