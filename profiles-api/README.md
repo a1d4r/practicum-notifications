@@ -1,5 +1,7 @@
 # Profiles API
 
+Provides randomly generated user profiles.
+
 ## Installation
 
 1. If you don't have `Poetry` installed run:
@@ -23,7 +25,8 @@ make format lint test
 
 ### Makefile usage
 
-[`Makefile`](https://github.com/a1d4r/practicum-notifications/blob/master/Makefile) contains a lot of functions for faster development.
+[`Makefile`](https://github.com/a1d4r/practicum-notifications/blob/master/Makefile) contains a lot of functions for
+faster development.
 
 <details>
 <summary>1. Download and remove Poetry</summary>

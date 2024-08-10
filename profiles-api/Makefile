@@ -10,6 +10,10 @@ VERSION := latest
 CODE = profiles_api tests
 TESTS = tests
 
+.PHONY: api
+api:
+	uvicorn profiles_api.main:app --reload
+
 #* Poetry
 .PHONY: poetry-download
 poetry-download:

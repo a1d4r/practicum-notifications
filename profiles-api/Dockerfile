@@ -40,7 +40,7 @@ ENV PATH="$POETRY_HOME/bin:$VENV_PATH/bin:$PATH"
 # BUILDER-BASE
 # Used to build deps + create our virtual environment
 ################################
-FROM python-base as builder-base
+FROM python-base AS builder-base
 RUN apt-get update \
     && apt-get install --no-install-recommends -y \
         # deps for installing poetry
@@ -67,7 +67,7 @@ RUN --mount=type=cache,target=/root/.cache \
 # DEVELOPMENT
 # Image used during development / testing
 ################################
-FROM python-base as development
+FROM python-base AS development
 WORKDIR $PYSETUP_PATH
 
 # copy in our built poetry + venv
@@ -81,15 +81,16 @@ RUN --mount=type=cache,target=/root/.cache \
 # will become mountpoint of our code
 WORKDIR /app
 
-CMD ["python", "-m", "profiles_api.example"]
+CMD ["uvicorn", "profiles_api.main:app", "--host", "0.0.0.0", "--port", "8000"]
 
 
 ################################
 # PRODUCTION
 # Final image used for runtime
 ################################
-FROM python-base as production
+FROM python-base AS production
 COPY --from=builder-base $PYSETUP_PATH $PYSETUP_PATH
 COPY ./profiles_api /app/profiles_api
 WORKDIR /app
-CMD ["python", "-m", "profiles_api.example"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8000", "-k", "uvicorn.workers.UvicornWorker", "profiles_api.main:app"]
+EXPOSE 8000
