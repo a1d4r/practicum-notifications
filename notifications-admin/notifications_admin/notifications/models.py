@@ -16,7 +16,7 @@ def jinja_validator(value: str):
 
 
 class TimeStampedMixin(models.Model):
-    created_at = models.DateTimeField(auto_now_add=True)
+    created_at = models.DateTimeField(auto_now_add=True, verbose_name=_('created at'))
     updated_at = models.DateTimeField(auto_now=True)
 
     class Meta:
@@ -77,7 +77,7 @@ class NotificationsContents(UUIDMixin, TimeStampedMixin):
 
 class Notifications(UUIDMixin):
     content_id = models.ForeignKey(NotificationsContents, on_delete=models.CASCADE, verbose_name=_('content id'))
-    created_at = models.DateTimeField(auto_now_add=True)
+    created_at = models.DateTimeField(auto_now_add=True, verbose_name=_('created at'))
     last_sent_at = models.DateTimeField(auto_now=True, verbose_name=_('last sent at'))
 
     class Meta:

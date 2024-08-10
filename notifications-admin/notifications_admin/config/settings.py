@@ -34,7 +34,7 @@ LANGUAGE_CODE = 'ru-RU'
 
 LOCALE_PATHS = ['notifications/locale']
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Moscow'
 
 USE_I18N = True
 

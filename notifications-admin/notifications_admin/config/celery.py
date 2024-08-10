@@ -1,11 +1,14 @@
 from __future__ import absolute_import, unicode_literals
 
+import datetime
 import logging
 import os
 
 import requests
 from celery import Celery, shared_task
+from django.apps import apps
 from django.conf import settings
+from django.db import IntegrityError
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
 
@@ -18,6 +21,20 @@ app.autodiscover_tasks()
 logger = logging.getLogger(__name__)
 
 
+def update_date(data: str):
+    Notifications = apps.get_model('notifications', 'Notifications')
+
+    try:
+        obj = Notifications.objects.get(content_id_id=data)
+        obj.last_sent_at = datetime.UTC
+        obj.save()
+    except Notifications.DoesNotExist:
+        try:
+            Notifications.objects.create(content_id_id=data)
+        except IntegrityError as err:
+            logger.error(err)
+
+
 @shared_task
 def task_notification_api(notification_content_id: str):
     try:
@@ -27,5 +44,9 @@ def task_notification_api(notification_content_id: str):
         response = requests.post(settings.NOTIFICATION_API, json=data)
         response.raise_for_status()
         logger.info(response.json())
+
     except requests.RequestException as err:
         logger.error(err)
+
+    finally:
+        update_date(notification_content_id)
