@@ -1,9 +1,14 @@
-version: "3.9"
 services:
-  app:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    image: notifications-worker:latest
-    volumes:
-      - ./notifications_worker:/app/notifications_worker
+#  app:
+#    build:
+#      context: .
+#      dockerfile: Dockerfile
+#    volumes:
+#      - ./notifications_worker:/app/notifications_worker
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    restart: unless-stopped
