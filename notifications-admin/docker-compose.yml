@@ -18,8 +18,8 @@ services:
       context: .
       dockerfile: ./notifications_admin/Dockerfile
     image: notifications-admin:latest
+    entrypoint: ["bash","/opt/app/entrypoint.sh"]
     volumes:
-      - ./notifications_admin:/app/notifications_admin
       - ./notifications_admin/static:/opt/app/notifications_admin/static
       - ./logs/nginx/json-logs.json:/opt/app/logs/nginx/json-logs.json
     env_file:
@@ -34,6 +34,18 @@ services:
       - ./postgres_data:/var/lib/postgresql/data
     env_file:
       - ./.env
+
+  celery:
+    image: notifications-admin:latest
+    command: celery -A config worker --loglevel=info -P eventlet
+    depends_on:
+      - notification-admin
+
+  celery-beat:
+    image: notifications-admin:latest
+    command: celery -A config beat --loglevel=info
+    depends_on:
+      - notification-admin
 
   rabbitmq:
     image: rabbitmq:3-management
