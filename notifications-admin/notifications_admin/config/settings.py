@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 
+import sentry_sdk
 from dotenv import load_dotenv
 from split_settings.tools import include
 
@@ -13,7 +14,13 @@ include(
     'components/templates.py',
     'components/auth_password_validators.py',
     'components/celery_settings.py',
-    # 'components/logging.py'
+    'components/logging.py'
+)
+
+sentry_sdk.init(
+    dsn=os.environ.get('SENTRY_DSN'),
+    traces_sample_rate=1.0,
+    profiles_sample_rate=1.0,
 )
 
 AUTH_USER_MODEL = "users.User"
@@ -28,7 +35,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
-DEBUG = os.environ.get('DEBUG', False) == 'True'
+DEBUG = os.environ.get('DEBUG', False) == True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
@@ -49,6 +56,10 @@ USE_I18N = True
 USE_TZ = True
 
 STATIC_URL = 'static/'
+
+STATIC_ROOT = BASE_DIR / 'static'
+
+print(STATIC_ROOT)
 
 NOTIFICATION_API = os.environ.get('NOTIFICATION_API')
 
