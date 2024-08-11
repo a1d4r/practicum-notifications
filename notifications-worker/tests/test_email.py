@@ -3,7 +3,7 @@ import pytest
 
 from faststream.rabbit import TestRabbitBroker
 
-from notifications_worker.main import broker
+from notifications_worker.broker import broker
 
 
 @pytest.mark.asyncio()

@@ -1,10 +1,10 @@
 services:
-#  app:
-#    build:
-#      context: .
-#      dockerfile: Dockerfile
-#    volumes:
-#      - ./notifications_worker:/app/notifications_worker
+  #  app:
+  #    build:
+  #      context: .
+  #      dockerfile: Dockerfile
+  #    volumes:
+  #      - ./notifications_worker:/app/notifications_worker
 
   rabbitmq:
     image: rabbitmq:3-management-alpine
@@ -12,3 +12,19 @@ services:
       - "5672:5672"
       - "15672:15672"
     restart: unless-stopped
+
+  mailpit:
+    image: axllent/mailpit
+    container_name: mailpit
+    restart: unless-stopped
+    volumes:
+      - ./infra/mailpit:/data
+    ports:
+      - 8025:8025
+      - 1025:1025
+    environment:
+      - TZ=Europe/Moscow
+      - MP_SMTP_TLS_KEY=/data/certs/key.pem
+      - MP_SMTP_TLS_CERT=/data/certs/cert.pem
+      - MP_SMTP_REQUIRE_TLS=true
+      - MP_SMTP_AUTH=noreply@example.com:password
