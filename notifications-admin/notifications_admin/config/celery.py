@@ -21,16 +21,16 @@ app.autodiscover_tasks()
 logger = logging.getLogger(__name__)
 
 
-def update_date(data: str):
+def update_date(notification_content_id: str):
     Notifications = apps.get_model('notifications', 'Notifications')
 
     try:
-        obj = Notifications.objects.get(content_id_id=data)
+        obj = Notifications.objects.get(content_id_id=notification_content_id)
         obj.last_sent_at = datetime.now(UTC)
         obj.save()
     except Notifications.DoesNotExist:
         try:
-            Notifications.objects.create(content_id_id=data)
+            Notifications.objects.create(content_id_id=notification_content_id)
         except IntegrityError as err:
             logger.error(err)
 
