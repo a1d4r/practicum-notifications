@@ -1,6 +1,6 @@
 from __future__ import absolute_import, unicode_literals
 
-import datetime
+from datetime import datetime, UTC
 import logging
 import os
 
@@ -26,7 +26,7 @@ def update_date(data: str):
 
     try:
         obj = Notifications.objects.get(content_id_id=data)
-        obj.last_sent_at = datetime.UTC
+        obj.last_sent_at = datetime.now(UTC)
         obj.save()
     except Notifications.DoesNotExist:
         try:

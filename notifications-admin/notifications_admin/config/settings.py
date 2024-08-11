@@ -59,8 +59,6 @@ STATIC_URL = 'static/'
 
 STATIC_ROOT = BASE_DIR / 'static'
 
-print(STATIC_ROOT)
-
 NOTIFICATION_API = os.environ.get('NOTIFICATION_API')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

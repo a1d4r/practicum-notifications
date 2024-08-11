@@ -63,8 +63,8 @@ class NotificationsTemplates(UUIDMixin, TimeStampedMixin):
 class NotificationsContents(UUIDMixin, TimeStampedMixin):
     event_type = models.ForeignKey(NotificationsTemplates, on_delete=models.CASCADE, verbose_name=_('event type'))
     template_variables = models.JSONField(verbose_name=_('Template Variables'), default={})
-    user_id = models.UUIDField(verbose_name=_('User ID'))
-    user_group_id = models.UUIDField(verbose_name=_('Group ID'))
+    user_id = models.UUIDField(null=True, verbose_name=_('User ID'))
+    user_group_id = models.UUIDField(null=True, verbose_name=_('Group ID'))
 
     class Meta:
         db_table = 'notification\".\"notification_contents'
@@ -78,7 +78,7 @@ class NotificationsContents(UUIDMixin, TimeStampedMixin):
 class Notifications(UUIDMixin):
     content_id = models.ForeignKey(NotificationsContents, on_delete=models.CASCADE, verbose_name=_('content id'))
     created_at = models.DateTimeField(auto_now_add=True, verbose_name=_('created at'))
-    last_sent_at = models.DateTimeField(auto_now=True, verbose_name=_('last sent at'))
+    last_sent_at = models.DateTimeField(verbose_name=_('last sent at'))
 
     class Meta:
         db_table = 'notification\".\"notifications'
