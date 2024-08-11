@@ -31,8 +31,6 @@ RUN --mount=type=cache,target=/root/.cache \
 WORKDIR $PYSETUP_PATH
 COPY poetry.lock pyproject.toml ./
 
-RUN poetry add "uWSGI==2.0.24"
-
 RUN --mount=type=cache,target=/root/.cache \
     poetry install --without=dev
 
