@@ -49,5 +49,4 @@ RUN chmod +x entrypoint.sh
 COPY ./notifications_admin/uwsgi/uwsgi.ini uwsgi.ini
 COPY ./notifications_admin/ .
 
-ENTRYPOINT ["bash", "./entrypoint.sh"]
 
