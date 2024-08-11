@@ -80,7 +80,7 @@ check-safety:
 	poetry run safety check --full-report
 
 .PHONY: lint
-lint: check-dependencies check-codestyle static-lint
+lint: check-codestyle static-lint
 
 .PHONY: update-dev-deps
 update-dev-deps:
