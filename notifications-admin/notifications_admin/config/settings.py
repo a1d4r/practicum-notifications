@@ -16,6 +16,14 @@ include(
     # 'components/logging.py'
 )
 
+AUTH_USER_MODEL = "users.User"
+
+AUTH_API_LOGIN_URL = os.environ.get('AUTH_LOGIN_URL')
+
+AUTHENTICATION_BACKENDS = [
+    'users.auth.AuthBackend',
+]
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.environ.get('SECRET_KEY')
