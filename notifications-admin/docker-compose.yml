@@ -38,12 +38,16 @@ services:
   celery:
     image: notifications-admin:latest
     command: celery -A config worker --loglevel=info -P eventlet
+    env_file:
+      - ./.env
     depends_on:
       - notification-admin
 
   celery-beat:
     image: notifications-admin:latest
     command: celery -A config beat --loglevel=info
+    env_file:
+      - ./.env
     depends_on:
       - notification-admin
 
