@@ -7,7 +7,7 @@ from django.db import models
 class UserManager(BaseUserManager):
     def create_user(self, email, password=None):
         if not email:
-            raise ValueError('Users must have an email address')
+            raise ValueError("Users must have an email address")
 
         user = self.model(email=self.normalize_email(email))
         user.set_password(password)
@@ -23,19 +23,19 @@ class UserManager(BaseUserManager):
 
 class User(AbstractBaseUser):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    email = models.EmailField(verbose_name='email address', max_length=255, unique=True)
+    email = models.EmailField(verbose_name="email address", max_length=255, unique=True)
     is_active = models.BooleanField(default=True)
     is_admin = models.BooleanField(default=False)
     is_staff = models.BooleanField(default=False)
     first_name = models.CharField(max_length=255)
     last_name = models.CharField(max_length=255)
 
-    USERNAME_FIELD = 'email'
+    USERNAME_FIELD = "email"
 
     objects = UserManager()
 
     def __str__(self):
-        return f'{self.email} {self.id}'
+        return f"{self.email} {self.id}"
 
     def has_perm(self, perm, obj=None):
         return True

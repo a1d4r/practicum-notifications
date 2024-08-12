@@ -21,31 +21,30 @@ class NotificationsInline(admin.TabularInline):
 
 class NotificationsTemplatesAdminForm(forms.ModelForm):
     channels = forms.MultipleChoiceField(
-        choices=NotificationsTemplates.Channel.choices,
-        widget=forms.CheckboxSelectMultiple
+        choices=NotificationsTemplates.Channel.choices, widget=forms.CheckboxSelectMultiple
     )
 
     class Meta:
         model = NotificationsTemplates
-        fields = ('event_type', 'template_text', 'channels',)
+        fields = ("event_type", "template_text", "channels")
 
     def clean_status(self):
-        return self.cleaned_data.get('channels', [])
+        return self.cleaned_data.get("channels", [])
 
 
 @admin.register(Notifications)
 class NotificationsAdmin(ReadOnlyAdmin):
-    list_display = ('content_id', 'created_at', 'last_sent_at',)
+    list_display = ("content_id", "created_at", "last_sent_at")
 
 
 @admin.register(NotificationsContents)
 class NotificationsContentsAdmin(admin.ModelAdmin):
     inlines = (NotificationsInline,)
-    list_display = ('id', 'event_type', 'user_id', 'user_group_id',)
+    list_display = ("id", "event_type", "user_id", "user_group_id")
 
 
 @admin.register(NotificationsTemplates)
 class NotificationsTemplatesAdmin(admin.ModelAdmin):
     form = NotificationsTemplatesAdminForm
-    list_display = ('event_type', 'channels',)
-    list_filter = ('event_type',)
+    list_display = ("event_type", "channels")
+    list_filter = ("event_type",)

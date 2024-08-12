@@ -12,7 +12,6 @@ User = get_user_model()
 
 
 class Roles(StrEnum):
-
     def _generate_next_value_(name: str, start: int, count: int, last_values: list[Any]) -> Any:
         return name.lower()
 
@@ -25,10 +24,10 @@ class Roles(StrEnum):
 
 class AuthBackend(BaseBackend):
     def authenticate(self, request, username=None, password=None):
-        url_login = f'{settings.AUTH_API_LOGIN_URL}/auth/login'
-        url_user = f'{settings.AUTH_API_LOGIN_URL}/users/'
+        url_login = f"{settings.AUTH_API_LOGIN_URL}/auth/login"
+        url_user = f"{settings.AUTH_API_LOGIN_URL}/users/"
 
-        payload = {'login': username, 'password': password}
+        payload = {"login": username, "password": password}
 
         try:
             response = requests.post(url_login, data=json.dumps(payload))
@@ -39,7 +38,7 @@ class AuthBackend(BaseBackend):
             return None
 
         data_login = response.json()
-        token = {'Authorization': f"Bearer {data_login['access_token']}"}
+        token = {"Authorization": f"Bearer {data_login['access_token']}"}
 
         resp_user_info = requests.get(url_user, headers=token)
 
@@ -49,20 +48,20 @@ class AuthBackend(BaseBackend):
         data = resp_user_info.json()
 
         try:
-            user, created = User.objects.get_or_create(id=data['id'], )
-            user.email = data.get('login')
-            user.first_name = data.get('first_name')
-            user.last_name = data.get('last_name')
+            user, created = User.objects.get_or_create(id=data["id"])
+            user.email = data.get("login")
+            user.first_name = data.get("first_name")
+            user.last_name = data.get("last_name")
 
-            if data.get('is_active'):
-                user.is_active = data.get('is_active')
+            if data.get("is_active"):
+                user.is_active = data.get("is_active")
             else:
                 user.is_active = True
 
-            if Roles.SUPERUSER in data.get('roles'):
+            if Roles.SUPERUSER in data.get("roles"):
                 user.is_admin = True
                 user.is_staff = True
-            elif Roles.ADMIN in data.get('roles'):
+            elif Roles.ADMIN in data.get("roles"):
                 user.is_admin = False
                 user.is_staff = True
             else:

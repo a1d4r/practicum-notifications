@@ -8,65 +8,119 @@ import uuid
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.RunSQL(
             sql="""
                         CREATE SCHEMA notification
                     """,
-            reverse_sql='DROP SCHEMA notification',
+            reverse_sql="DROP SCHEMA notification",
         ),
         migrations.CreateModel(
-            name='NotificationsTemplates',
+            name="NotificationsTemplates",
             fields=[
-                ('created_at', models.DateTimeField(auto_now_add=True, verbose_name='created at')),
-                ('updated_at', models.DateTimeField(auto_now=True)),
-                ('id', models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True, serialize=False)),
-                ('event_type', models.CharField(max_length=255, unique=True, verbose_name='event type')),
-                ('template_text', models.TextField(validators=[notifications.models.jinja_validator], verbose_name='Template')),
-                ('channels', django.contrib.postgres.fields.ArrayField(base_field=models.CharField(choices=[('sms', 'SMS'), ('email', 'Email'), ('websocket', 'WebSocket')], max_length=255, verbose_name='channels'), blank=True, default=list, size=None)),
+                ("created_at", models.DateTimeField(auto_now_add=True, verbose_name="created at")),
+                ("updated_at", models.DateTimeField(auto_now=True)),
+                (
+                    "id",
+                    models.UUIDField(
+                        default=uuid.uuid4, editable=False, primary_key=True, serialize=False
+                    ),
+                ),
+                (
+                    "event_type",
+                    models.CharField(max_length=255, unique=True, verbose_name="event type"),
+                ),
+                (
+                    "template_text",
+                    models.TextField(
+                        validators=[notifications.models.jinja_validator], verbose_name="Template"
+                    ),
+                ),
+                (
+                    "channels",
+                    django.contrib.postgres.fields.ArrayField(
+                        base_field=models.CharField(
+                            choices=[
+                                ("sms", "SMS"),
+                                ("email", "Email"),
+                                ("websocket", "WebSocket"),
+                            ],
+                            max_length=255,
+                            verbose_name="channels",
+                        ),
+                        blank=True,
+                        default=list,
+                        size=None,
+                    ),
+                ),
             ],
             options={
-                'verbose_name': 'Template',
-                'verbose_name_plural': 'Templates',
-                'db_table': 'notification"."notification_templates',
-                'indexes': [models.Index(fields=['event_type'], name='event_type_idx')],
+                "verbose_name": "Template",
+                "verbose_name_plural": "Templates",
+                "db_table": 'notification"."notification_templates',
+                "indexes": [models.Index(fields=["event_type"], name="event_type_idx")],
             },
         ),
         migrations.CreateModel(
-            name='NotificationsContents',
+            name="NotificationsContents",
             fields=[
-                ('created_at', models.DateTimeField(auto_now_add=True, verbose_name='created at')),
-                ('updated_at', models.DateTimeField(auto_now=True)),
-                ('id', models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True, serialize=False)),
-                ('template_variables', models.JSONField(default={}, verbose_name='Template Variables')),
-                ('user_id', models.UUIDField(null=True, verbose_name='User ID')),
-                ('user_group_id', models.UUIDField(null=True, verbose_name='Group ID')),
-                ('event_type', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='notifications.notificationstemplates', verbose_name='event type')),
+                ("created_at", models.DateTimeField(auto_now_add=True, verbose_name="created at")),
+                ("updated_at", models.DateTimeField(auto_now=True)),
+                (
+                    "id",
+                    models.UUIDField(
+                        default=uuid.uuid4, editable=False, primary_key=True, serialize=False
+                    ),
+                ),
+                (
+                    "template_variables",
+                    models.JSONField(default={}, verbose_name="Template Variables"),
+                ),
+                ("user_id", models.UUIDField(null=True, verbose_name="User ID")),
+                ("user_group_id", models.UUIDField(null=True, verbose_name="Group ID")),
+                (
+                    "event_type",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to="notifications.notificationstemplates",
+                        verbose_name="event type",
+                    ),
+                ),
             ],
             options={
-                'verbose_name': 'Content',
-                'verbose_name_plural': 'Contents',
-                'db_table': 'notification"."notification_contents',
+                "verbose_name": "Content",
+                "verbose_name_plural": "Contents",
+                "db_table": 'notification"."notification_contents',
             },
         ),
         migrations.CreateModel(
-            name='Notifications',
+            name="Notifications",
             fields=[
-                ('id', models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True, serialize=False)),
-                ('created_at', models.DateTimeField(auto_now_add=True, verbose_name='created at')),
-                ('last_sent_at', models.DateTimeField(verbose_name='last sent at')),
-                ('content_id', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='notifications.notificationscontents', verbose_name='content id')),
+                (
+                    "id",
+                    models.UUIDField(
+                        default=uuid.uuid4, editable=False, primary_key=True, serialize=False
+                    ),
+                ),
+                ("created_at", models.DateTimeField(auto_now_add=True, verbose_name="created at")),
+                ("last_sent_at", models.DateTimeField(verbose_name="last sent at")),
+                (
+                    "content_id",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to="notifications.notificationscontents",
+                        verbose_name="content id",
+                    ),
+                ),
             ],
             options={
-                'verbose_name': 'Notification',
-                'verbose_name_plural': 'Notifications',
-                'db_table': 'notification"."notifications',
+                "verbose_name": "Notification",
+                "verbose_name_plural": "Notifications",
+                "db_table": 'notification"."notifications',
             },
         ),
     ]
