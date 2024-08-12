@@ -25,8 +25,8 @@ services:
     env_file:
       - ./.env
     depends_on:
-      - postgres
-      - rabbitmq
+      postgres:
+        condition: service_healthy
 
   postgres:
     image: postgres:13
@@ -34,6 +34,11 @@ services:
       - ./postgres_data:/var/lib/postgresql/data
     env_file:
       - ./.env
+    healthcheck:
+      test: [ "CMD-SHELL", "sh -c 'pg_isready -U ${DB_USER} -d ${DB_NAME}'" ]
+      interval: 5s
+      timeout: 10s
+      retries: 120
 
   celery:
     image: notifications-admin:latest
