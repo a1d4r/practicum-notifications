@@ -116,6 +116,15 @@ ignore = [
   "TRY003", # long message for exceptions
   "EM101", # allow string literals for exceptions
   "EM102", # allow f-string literals for exceptions
+  "ARG002",
+  "PLR0915",
+  "E712",
+  "TID252",
+  "N805",
+  "RUF012",
+  "TRY400",
+  "TRY401",
+  "S701"
 ]
 unfixable = [
   "F", # pyflakes

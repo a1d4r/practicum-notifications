@@ -39,7 +39,7 @@ def update_date(notification_content_id: str):
 def task_notification_api(notification_content_id: str):
     try:
         data = {"notification_content_id": notification_content_id}
-        response = requests.post(settings.NOTIFICATION_API, json=data)
+        response = requests.post(settings.NOTIFICATION_API, json=data, timeout=60)
         response.raise_for_status()
         logger.info(response.json())
 

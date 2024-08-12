@@ -11,7 +11,7 @@ def jinja_validator(value: str):
     try:
         Environment().parse(value)
     except TemplateSyntaxError as err:
-        raise ValidationError(_(f"Template syntax error: {err}"))
+        raise ValidationError(_("Template syntax error: %s") % err) from None
 
 
 class TimeStampedMixin(models.Model):

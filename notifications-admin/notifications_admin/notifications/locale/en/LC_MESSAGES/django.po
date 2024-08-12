@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-10 13:29+0300\n"
+"POT-Creation-Date: 2024-08-12 22:25+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,75 +22,76 @@ msgstr ""
 msgid "notifications"
 msgstr "Уведомления"
 
-#: .\notifications\models.py:15
-#, python-brace-format
-msgid "Template syntax error: {err}"
-msgstr "Ошибка в синтаксе шаблона: {err}"
+#: .\notifications\models.py:14
+#, fuzzy, python-format
+#| msgid "Template syntax error: {err}"
+msgid "Template syntax error: %s"
+msgstr "Ошибка в синтаксе шаблона: %s"
 
-#: .\notifications\models.py:19 .\notifications\models.py:80
+#: .\notifications\models.py:18 .\notifications\models.py:77
 msgid "created at"
 msgstr "Создано"
 
-#: .\notifications\models.py:35
+#: .\notifications\models.py:34
 msgid "SMS"
 msgstr "SMS"
 
-#: .\notifications\models.py:36
+#: .\notifications\models.py:35
 msgid "Email"
 msgstr "Email"
 
-#: .\notifications\models.py:37
+#: .\notifications\models.py:36
 msgid "WebSocket"
 msgstr "WebSocket"
 
-#: .\notifications\models.py:39 .\notifications\models.py:64
+#: .\notifications\models.py:38 .\notifications\models.py:58
 msgid "event type"
 msgstr "Тип события"
 
-#: .\notifications\models.py:40 .\notifications\models.py:56
+#: .\notifications\models.py:39 .\notifications\models.py:49
 msgid "Template"
 msgstr "Шаблон"
 
-#: .\notifications\models.py:45
+#: .\notifications\models.py:41
 msgid "channels"
 msgstr "Способы доставки"
 
-#: .\notifications\models.py:57
+#: .\notifications\models.py:50
 msgid "Templates"
 msgstr "Шаблоны"
 
-#: .\notifications\models.py:65
+#: .\notifications\models.py:60
 msgid "Template Variables"
 msgstr "Переменные шаблона"
 
-#: .\notifications\models.py:66
+#: .\notifications\models.py:61
 msgid "User ID"
 msgstr "ID пользователя"
 
-#: .\notifications\models.py:67
+#: .\notifications\models.py:62
 msgid "Group ID"
 msgstr "ID группы"
 
-#: .\notifications\models.py:71
+#: .\notifications\models.py:66
 msgid "Content"
 msgstr "Содержание"
 
-#: .\notifications\models.py:72
+#: .\notifications\models.py:67
 msgid "Contents"
 msgstr "Содержания"
 
-#: .\notifications\models.py:79
+#: .\notifications\models.py:75
 msgid "content id"
 msgstr "ID содержания"
 
-#: .\notifications\models.py:81
+#: .\notifications\models.py:78
 msgid "last sent at"
 msgstr "Последний раз отправлен"
 
-#: .\notifications\models.py:85
+#: .\notifications\models.py:82
 msgid "Notification"
 msgstr "Уведомление"
 
-#: .\notifications\models.py:86
+#: .\notifications\models.py:83
 msgid "Notifications"
 msgstr "Уведомления"

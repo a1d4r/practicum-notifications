@@ -2,6 +2,7 @@ from typing import Any
 
 import http
 import json
+import logging
 
 from enum import StrEnum, auto
 
@@ -33,7 +34,7 @@ class AuthBackend(BaseBackend):
         payload = {"login": username, "password": password}
 
         try:
-            response = requests.post(url_login, data=json.dumps(payload))
+            response = requests.post(url_login, data=json.dumps(payload), timeout=60)
         except requests.ConnectionError:
             return None
 
@@ -43,7 +44,7 @@ class AuthBackend(BaseBackend):
         data_login = response.json()
         token = {"Authorization": f"Bearer {data_login['access_token']}"}
 
-        resp_user_info = requests.get(url_user, headers=token)
+        resp_user_info = requests.get(url_user, headers=token, timeout=60)
 
         if resp_user_info.status_code != http.HTTPStatus.OK:
             return None
@@ -72,7 +73,8 @@ class AuthBackend(BaseBackend):
                 user.is_staff = False
 
             user.save()
-        except Exception:
+        except Exception as err:
+            logging.exception(err)
             return None
 
         return user
