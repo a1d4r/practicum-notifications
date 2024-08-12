@@ -1,7 +1,9 @@
 import os
+
 from pathlib import Path
 
 import sentry_sdk
+
 from dotenv import load_dotenv
 from split_settings.tools import include
 

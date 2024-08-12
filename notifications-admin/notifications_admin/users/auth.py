@@ -1,12 +1,15 @@
-import http
-import json
-from enum import StrEnum, auto
 from typing import Any
 
+import http
+import json
+
+from enum import StrEnum, auto
+
 import requests
+
 from django.conf import settings
-from django.contrib.auth.backends import BaseBackend
 from django.contrib.auth import get_user_model
+from django.contrib.auth.backends import BaseBackend
 
 User = get_user_model()
 

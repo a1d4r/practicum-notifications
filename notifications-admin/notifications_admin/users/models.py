@@ -1,6 +1,6 @@
 import uuid
 
-from django.contrib.auth.base_user import BaseUserManager, AbstractBaseUser
+from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
 from django.db import models
 
 

@@ -7,7 +7,7 @@ IMAGE := notifications-admin
 VERSION := latest
 
 #* Directories with source code
-CODE = notifications_admin tests
+CODE = notifications_admin
 TESTS = tests
 
 #* Poetry

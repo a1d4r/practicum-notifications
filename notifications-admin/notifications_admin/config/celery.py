@@ -1,10 +1,10 @@
-from __future__ import absolute_import, unicode_literals
-
-from datetime import datetime, UTC
 import logging
 import os
 
+from datetime import UTC, datetime
+
 import requests
+
 from celery import Celery, shared_task
 from django.apps import apps
 from django.conf import settings
