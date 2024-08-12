@@ -1,17 +1,20 @@
+from typing import Any
+
 from django import forms
 from django.contrib import admin
+from django.http import HttpRequest
 
 from .models import Notifications, NotificationsContents, NotificationsTemplates
 
 
 class ReadOnlyAdmin(admin.ModelAdmin):
-    def has_change_permission(self, request, obj=None):
+    def has_change_permission(self, request: HttpRequest, obj: Notifications | None = None) -> bool:
         return False
 
-    def has_add_permission(self, request):
+    def has_add_permission(self, request: HttpRequest) -> bool:
         return False
 
-    def has_delete_permission(self, request, obj=None):
+    def has_delete_permission(self, request: HttpRequest, obj: Notifications | None = None) -> bool:
         return False
 
 
@@ -28,7 +31,7 @@ class NotificationsTemplatesAdminForm(forms.ModelForm):
         model = NotificationsTemplates
         fields = ("event_type", "template_text", "channels")
 
-    def clean_status(self):
+    def clean_status(self) -> Any:
         return self.cleaned_data.get("channels", [])
 
 

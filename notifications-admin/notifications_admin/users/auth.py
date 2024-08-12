@@ -11,6 +11,7 @@ import requests
 from django.conf import settings
 from django.contrib.auth import get_user_model
 from django.contrib.auth.backends import BaseBackend
+from django.http import HttpRequest
 
 User = get_user_model()
 
@@ -27,7 +28,9 @@ class Roles(StrEnum):
 
 
 class AuthBackend(BaseBackend):
-    def authenticate(self, request, username=None, password=None):
+    def authenticate(
+        self, request: HttpRequest, username: str | None = None, password: str | None = None
+    ) -> Any:
         url_login = f"{settings.AUTH_API_LOGIN_URL}/auth/login"
         url_user = f"{settings.AUTH_API_LOGIN_URL}/users/"
 
@@ -79,7 +82,7 @@ class AuthBackend(BaseBackend):
 
         return user
 
-    def get_user(self, user_id):
+    def get_user(self, user_id: str) -> Any:
         try:
             return User.objects.get(pk=user_id)
         except User.DoesNotExist:

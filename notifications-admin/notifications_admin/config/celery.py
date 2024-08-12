@@ -21,7 +21,7 @@ app.autodiscover_tasks()
 logger = logging.getLogger(__name__)
 
 
-def update_date(notification_content_id: str):
+def update_date(notification_content_id: str) -> None:
     Notifications = apps.get_model("notifications", "Notifications")
 
     try:
@@ -36,7 +36,7 @@ def update_date(notification_content_id: str):
 
 
 @shared_task
-def task_notification_api(notification_content_id: str):
+def task_notification_api(notification_content_id: str) -> None:
     try:
         data = {"notification_content_id": notification_content_id}
         response = requests.post(settings.NOTIFICATION_API, json=data, timeout=60)

@@ -1,3 +1,5 @@
+from typing import Any
+
 import uuid
 
 from django.contrib.postgres.fields import ArrayField
@@ -7,7 +9,7 @@ from django.utils.translation import gettext_lazy as _
 from jinja2 import Environment, TemplateSyntaxError
 
 
-def jinja_validator(value: str):
+def jinja_validator(value: str) -> None:
     try:
         Environment().parse(value)
     except TemplateSyntaxError as err:
@@ -49,7 +51,7 @@ class NotificationsTemplates(UUIDMixin, TimeStampedMixin):
         verbose_name = _("Template")
         verbose_name_plural = _("Templates")
 
-    def __str__(self):
+    def __str__(self) -> Any:
         return self.event_type
 
 
@@ -66,7 +68,7 @@ class NotificationsContents(UUIDMixin, TimeStampedMixin):
         verbose_name = _("Content")
         verbose_name_plural = _("Contents")
 
-    def __str__(self):
+    def __str__(self) -> Any:
         return f"Notification content for {self.event_type}"
 
 
@@ -82,5 +84,5 @@ class Notifications(UUIDMixin):
         verbose_name = _("Notification")
         verbose_name_plural = _("Notifications")
 
-    def __str__(self):
+    def __str__(self) -> Any:
         return f"Notification {self.last_sent_at}"

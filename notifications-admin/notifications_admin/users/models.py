@@ -1,3 +1,5 @@
+from typing import Any
+
 import uuid
 
 from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
@@ -5,7 +7,7 @@ from django.db import models
 
 
 class UserManager(BaseUserManager):
-    def create_user(self, email, password=None):
+    def create_user(self, email: str, password: str | None = None) -> Any:
         if not email:
             raise ValueError("Users must have an email address")
 
@@ -14,7 +16,7 @@ class UserManager(BaseUserManager):
         user.save(using=self._db)
         return user
 
-    def create_superuser(self, email, password=None):
+    def create_superuser(self, email: str, password: str | None = None) -> Any:
         user = self.create_user(email, password=password)
         user.is_admin = True
         user.save(using=self._db)
@@ -34,11 +36,11 @@ class User(AbstractBaseUser):
 
     objects = UserManager()
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f"{self.email} {self.id}"
 
-    def has_perm(self, perm, obj=None):
+    def has_perm(self, perm: str, obj: object | None = None) -> bool:
         return True
 
-    def has_module_perms(self, app_label):
+    def has_module_perms(self, app_label: str) -> bool:
         return True
