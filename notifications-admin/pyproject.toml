@@ -124,7 +124,8 @@ ignore = [
   "RUF012",
   "TRY400",
   "TRY401",
-  "S701"
+  "S701",
+  "EXE001"
 ]
 unfixable = [
   "F", # pyflakes
