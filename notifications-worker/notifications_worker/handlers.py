@@ -6,6 +6,8 @@ from uuid import UUID
 import aiosmtplib
 
 from fast_depends import Depends
+from faststream.exceptions import NackMessage
+from loguru import logger
 
 from notifications_worker.broker import broker
 from notifications_worker.dependencies import provide_smtp_client
@@ -19,13 +21,26 @@ async def handle_notification(notification_id: UUID) -> None:  # noqa: ARG001
 
 @broker.subscriber(queues_settings.email_queue_name)
 async def handle_email(
-    message_content: str,
-    email: str,
     smtp_client: Annotated[aiosmtplib.SMTP, Depends(provide_smtp_client)],
+    email: str,
+    subject: str | None = None,
+    text: str | None = None,
+    html: str | None = None,
 ) -> None:
     message = EmailMessage()
+    if subject is not None:
+        message["Subject"] = subject
+    if text is not None:
+        message.set_content(text)
+    if html is not None:
+        message.add_alternative(html, subtype="html")
     message["From"] = smtp_settings.username
     message["To"] = email
-    message["Subject"] = "Hello World!"
-    message.set_content(message_content)
-    await smtp_client.send_message(message)
+
+    try:
+        await smtp_client.send_message(message)
+    except Exception as exc:
+        logger.exception("Failed to send email at {email}", email=email)
+        raise NackMessage from exc
+    else:
+        logger.info("Successfully sent message at {email}", email=email)

@@ -13,6 +13,7 @@ faststream = {extras = ["rabbit"], version = "^0.5.17"}
 pydantic-settings = "^2.4.0"
 aiosmtplib = "^3.0.2"
 fast-depends = "^2.4.8"
+loguru = "^0.7.2"
 
 [tool.poetry.group.dev.dependencies]  # https://python-poetry.org/docs/master/managing-dependencies/
 mypy = "^1.11.1"

@@ -1,7 +1,11 @@
 import sys
 
-from pydantic import SecretStr
+from pathlib import Path
+
+from pydantic import SecretStr, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
+
+PROJECT_PATH = Path(__file__).parent.parent.resolve()
 
 
 class RabbitMQSettings(BaseSettings):
@@ -34,7 +38,16 @@ class SMTPSettings(BaseSettings):
     username: str
     password: SecretStr
     use_tls: bool = True
-    cert_bundle: str | None = None
+    cert_bundle: Path | None = None  # path to cert.pem
+
+    @field_validator("cert_bundle")
+    @classmethod
+    def validate_cert_bundle(cls, cert_bundle: Path | None) -> Path | None:
+        if cert_bundle is None:
+            return cert_bundle
+        if cert_bundle.is_absolute():
+            return cert_bundle
+        return (PROJECT_PATH / cert_bundle).resolve()
 
 
 env_file = "./envs/.env.test" if "pytest" in sys.modules else "./envs/.env"
