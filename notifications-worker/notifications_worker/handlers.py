@@ -7,6 +7,7 @@ import aiosmtplib
 
 from fast_depends import Depends
 from faststream.exceptions import NackMessage
+from inscriptis import get_text
 from loguru import logger
 
 from notifications_worker.broker import broker
@@ -28,14 +29,19 @@ async def handle_email(
     html: str | None = None,
 ) -> None:
     message = EmailMessage()
+
     if subject is not None:
         message["Subject"] = subject
-    if text is not None:
-        message.set_content(text)
-    if html is not None:
-        message.add_alternative(html, subtype="html")
     message["From"] = smtp_settings.username
     message["To"] = email
+    if text is None:
+        if html is None:
+            logger.error("Either text or html must be provided")
+            raise NackMessage
+        text = get_text(html)
+    message.set_content(text)
+    if html is not None:
+        message.add_alternative(html, subtype="html")
 
     try:
         await smtp_client.send_message(message)
