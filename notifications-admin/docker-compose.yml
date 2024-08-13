@@ -1,9 +1,73 @@
 version: "3.9"
 services:
-  app:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    image: notifications-admin:latest
+
+  nginx:
+    image: nginx:1.25.3
     volumes:
-      - ./notifications_admin:/app/notifications_admin
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./logs/nginx/:/var/log/nginx/
+      - ./configs:/etc/nginx/conf.d:ro
+      - ./notifications_admin/static:/opt/app/notifications_admin/static:ro
+    depends_on:
+      - notification-admin
+    ports:
+      - ${NGINX_INTERNAL_PORT}:${NGINX_EXTERNAL_PORT}
+
+  notification-admin:
+    build :
+      context: .
+      dockerfile: ./notifications_admin/Dockerfile
+    image: notifications-admin:latest
+    entrypoint: ["bash","/opt/app/entrypoint.sh"]
+    volumes:
+      - ./notifications_admin/static:/opt/app/notifications_admin/static
+      - ./logs/nginx/json-logs.json:/opt/app/logs/nginx/json-logs.json
+    env_file:
+      - ./.env
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  postgres:
+    image: postgres:13
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
+    env_file:
+      - ./.env
+    healthcheck:
+      test: [ "CMD-SHELL", "sh -c 'pg_isready -U ${DB_USER} -d ${DB_NAME}'" ]
+      interval: 5s
+      timeout: 10s
+      retries: 120
+
+  celery:
+    image: notifications-admin:latest
+    command: celery -A config worker --loglevel=info -P eventlet
+    env_file:
+      - ./.env
+    depends_on:
+      - notification-admin
+
+  celery-beat:
+    image: notifications-admin:latest
+    command: celery -A config beat --loglevel=info
+    env_file:
+      - ./.env
+    depends_on:
+      - notification-admin
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    volumes:
+      - ./rabbitmq_data:/var/lib/rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: ${RABBIT_USER}
+      RABBITMQ_DEFAULT_PASS: ${RABBIT_PASS}
+
+  filebeat:
+    image: elastic/filebeat:8.10.2
+    command: filebeat -e -strict.perms=false
+    volumes:
+      - ./logs/nginx:/var/log/nginx:ro
+      - ./deploy/filebeat.yml:/usr/share/filebeat/filebeat.yml
+
