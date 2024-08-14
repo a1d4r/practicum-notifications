@@ -61,6 +61,7 @@ warn_untyped_fields = true
 # https://docs.pytest.org/en/latest/reference/reference.html#ini-options-ref
 filterwarnings = ["error", "ignore::DeprecationWarning", "ignore::ImportWarning"]
 testpaths = ["notifications_worker", "tests"]
+asyncio_mode = "auto"
 xfail_strict = true
 
 # Extra options:

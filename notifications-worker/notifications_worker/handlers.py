@@ -7,21 +7,23 @@ import aiosmtplib
 
 from fast_depends import Depends
 from faststream.exceptions import NackMessage
+from faststream.rabbit import RabbitRouter
 from inscriptis import get_text
 from loguru import logger
 
-from notifications_worker.broker import broker
 from notifications_worker.dependencies import provide_smtp_client
 from notifications_worker.settings import queues_settings, smtp_settings
 
+router = RabbitRouter(prefix="notifications_")
 
-@broker.subscriber(queues_settings.notifications_queue_name)
+
+@router.subscriber(queues_settings.notifications_queue_name)
 async def handle_notification(notification_id: UUID) -> None:  # noqa: ARG001
     pass
 
 
-@broker.subscriber(queues_settings.email_queue_name)
-async def handle_email(
+@router.subscriber(queues_settings.email_queue_name)
+async def send_email(
     smtp_client: Annotated[aiosmtplib.SMTP, Depends(provide_smtp_client)],
     email: str,
     subject: str | None = None,

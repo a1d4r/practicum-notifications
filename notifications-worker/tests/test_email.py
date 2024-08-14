@@ -1,19 +1,27 @@
-import pydantic
-import pytest
+from typing import TYPE_CHECKING
 
-from faststream.rabbit import TestRabbitBroker
-
-from notifications_worker.broker import broker
+if TYPE_CHECKING:
+    from email.message import EmailMessage
 
 
-@pytest.mark.asyncio()
-async def test_correct():
-    async with TestRabbitBroker(broker) as br:
-        await br.publish({"user": "John", "user_id": 1}, "in-queue")
+async def test_send_email_with_text_and_html(test_broker, smtp_client_mock):
+    # Arrange
+    recipient = "test@example.com"
+    subject = "Greetings"
+    text = "Hello, John Doe!"
+    html = "<p>Hello, John Doe!</p>"
 
+    # Act
+    await test_broker.publish(
+        {"email": recipient, "subject": subject, "text": text, "html": html},
+        queue="notifications_email",
+    )
 
-@pytest.mark.asyncio()
-async def test_invalid():
-    async with TestRabbitBroker(broker) as br:
-        with pytest.raises(pydantic.ValidationError):
-            await br.publish("wrong message", "in-queue")
+    # Assert
+    assert smtp_client_mock.send_message.call_count == 1
+    message: EmailMessage = smtp_client_mock.send_message.call_args[0][0]
+    message_parts = list(message.iter_parts())
+    assert message.get("To") == recipient
+    assert message.get("Subject") == subject
+    assert message_parts[0].get_payload().rstrip() == text  # type: ignore[union-attr]
+    assert message_parts[1].get_payload().rstrip() == html  # type: ignore[union-attr]

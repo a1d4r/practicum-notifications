@@ -24,10 +24,11 @@ class RabbitMQSettings(BaseSettings):
 class QueuesSettings(BaseSettings):
     model_config = SettingsConfigDict(extra="ignore")
 
-    notifications_queue_name: str = "notifications.general"
-    email_queue_name: str = "notifications.email"
-    sms_queue_name: str = "notifications.sms"
-    websocket_queue_name: str = "notifications.websocket"
+    prefix: str = "notifications_"
+    notifications_queue_name: str = "general"
+    email_queue_name: str = "email"
+    sms_queue_name: str = "sms"
+    websocket_queue_name: str = "websocket"
 
 
 class SMTPSettings(BaseSettings):
@@ -50,7 +51,7 @@ class SMTPSettings(BaseSettings):
         return (PROJECT_PATH / cert_bundle).resolve()
 
 
-env_file = "./envs/.env.test" if "pytest" in sys.modules else "./envs/.env"
+env_file = PROJECT_PATH / "envs" / (".env.test" if "pytest" in sys.modules else ".env")
 rabbitmq_settings = RabbitMQSettings(_env_file=env_file)
 queues_settings = QueuesSettings(_env_file=env_file)
 smtp_settings = SMTPSettings(_env_file=env_file)
