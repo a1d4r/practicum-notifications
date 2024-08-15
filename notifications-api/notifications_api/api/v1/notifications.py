@@ -1,6 +1,6 @@
 from typing import Annotated
 
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException
 from starlette import status as http_status
 
 from schemas.api_models import (
@@ -33,6 +33,13 @@ async def send_notification(
     notification_service: NotificationService = Depends(get_notification_service),
 ) -> SendNotificationResponse:
     """Send notification to RabbitMQ."""
+    if not notification_service.get_notification_content(
+        content_id=request_param.notification_content_id
+    ):
+        raise HTTPException(
+            status_code=http_status.HTTP_404_NOT_FOUND,
+            detail=f"content_id [{request_param.notification_content_id}] not found.",
+        )
     result = await notification_service.send_notification(
         content_id=request_param.notification_content_id
     )
@@ -50,5 +57,12 @@ async def create_notification(
     notification_service: NotificationService = Depends(get_notification_service),
 ) -> SendNotificationResponse:
     """Create notification for RabbitMQ."""
+    if not notification_service.get_notification_template(
+        template_id=request_param.notification_template_id
+    ):
+        raise HTTPException(
+            status_code=http_status.HTTP_404_NOT_FOUND,
+            detail=f"template_id [{request_param.notification_content_id}] not found.",
+        )
     result = await notification_service.create_notification(**request_param.model_dump())
     return SendNotificationResponse(**{"notification_content_id": result.id})

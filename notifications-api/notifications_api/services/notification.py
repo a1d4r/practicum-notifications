@@ -9,7 +9,8 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from clients.celery_client import get_celery_session, CeleryClient
 from clients.database import get_pg_session
 from clients.rabbit_mq import get_rabbit_session, RabbitMQClient
-from schemas.entity import Notification, NotificationContent
+from schemas.entity import Notification, NotificationContent, NotificationTemplate
+from sqlalchemy.future import select
 
 
 class NotificationsServiceBase(ABC):
@@ -39,6 +40,18 @@ class NotificationService(NotificationsServiceBase):
         self._db: AsyncSession = database_session
         self._rabbit: RabbitMQClient = rabbit_session
         self._celery: celery_session = celery_session
+
+    async def get_notification_content(self, content_id: uuid.UUID):
+        result = await self._db.execute(
+            select(NotificationContent).where(NotificationContent.id == content_id)
+        )
+        return result.scalars().first()
+
+    async def get_notification_template(self, template_id: uuid.UUID):
+        result = await self._db.execute(
+            select(NotificationTemplate).where(NotificationTemplate.id == template_id)
+        )
+        return result.scalars().first()
 
     async def create_notification(
         self,
