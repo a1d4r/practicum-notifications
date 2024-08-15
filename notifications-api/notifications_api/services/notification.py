@@ -1,7 +1,7 @@
 import json
 import uuid
 from abc import ABC, abstractmethod
-from datetime import datetime
+from datetime import datetime, timezone
 
 from fastapi import Depends
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -44,12 +44,12 @@ class NotificationService(NotificationsServiceBase):
         self,
         user_id: uuid.UUID,
         user_group_id: uuid.UUID,
-        event_type: str,
+        notification_template_id: str,
         template_variables: dict,
         planned_at: datetime | None,
     ) -> Notification:
         notification_content = NotificationContent(
-            event_type=event_type,
+            notification_template_id=notification_template_id,
             template_variables=template_variables,
             user_id=user_id,
             user_group_id=user_group_id,
@@ -59,9 +59,9 @@ class NotificationService(NotificationsServiceBase):
         notification = Notification(content_id=notification_content.id)
         self._db.add(notification)
         await self._db.commit()
-        if not planned_at:
+        if not planned_at or planned_at < datetime.now(timezone.utc):
             await self.send_message_to_rabbit(
-                message_body=json.dumps({"notification_id": notification.id})
+                message_body=json.dumps({"notification_id": str(notification.id)})
             )
         else:
             self._celery.send_task_to_celery(

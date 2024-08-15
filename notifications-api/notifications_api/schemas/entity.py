@@ -7,7 +7,7 @@ from sqlalchemy.orm import relationship, declarative_base
 
 
 Base = declarative_base()
-SCHEMA = "notifications"
+SCHEMA = "notification"
 
 
 class SchemaBase(Base):
@@ -22,16 +22,16 @@ class NotificationContent(SchemaBase):
     __tablename__ = "notification_contents"
     __table_args__ = {"schema": SCHEMA}
 
-    event_type = Column(String(255), nullable=False)
-    template_variables = Column(JSON, nullable=False)
-    user_id = Column(
-        UUID(as_uuid=True), ForeignKey(f"{SCHEMA}.users.id", ondelete="CASCADE"), nullable=False
-    )
-    user_group_id = Column(
+    notification_template_id = Column(
         UUID(as_uuid=True),
-        ForeignKey(f"{SCHEMA}.user_groups.id", ondelete="CASCADE"),
+        ForeignKey(f"{SCHEMA}.notification_templates.id", ondelete="CASCADE"),
         nullable=False,
     )
+    notification_template = relationship("NotificationTemplate", backref="notification_contents")
+
+    template_variables = Column(JSON, nullable=False)
+    user_id = Column(UUID(as_uuid=True), nullable=False)
+    user_group_id = Column(UUID(as_uuid=True), nullable=False)
     updated_at = Column(DateTime, default=datetime.utcnow, nullable=False)
 
 
@@ -44,9 +44,8 @@ class Notification(SchemaBase):
         ForeignKey(f"{SCHEMA}.notification_contents.id", ondelete="CASCADE"),
         nullable=False,
     )
-    sent_at = Column(DateTime, default=datetime.utcnow, nullable=False)
-
-    content = relationship("NotificationContents", backref="notifications")
+    last_sent_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    content = relationship("NotificationContent", backref="notifications")
 
 
 class NotificationTemplate(SchemaBase):

@@ -29,7 +29,11 @@ class Settings(BaseSettings):
     db_name: str
     db_user: str
     db_pass: str
-    # db: Database | None = None
+
+    rabbitmq_url: str
+    celery_url: str
+
+    debug: bool
 
     class Config:
         env_file = ".env"

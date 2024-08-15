@@ -24,7 +24,7 @@ class Notification(BaseSchema):
 class NotificationTemplate(BaseSchema):
     event_type: str
     template_text: str
-    channels: dict[str]
+    channels: list[str]
     updated_at: datetime = Field(default_factory=datetime.now)
 
 
@@ -39,6 +39,6 @@ class SendNotificationResponse(BaseModel):
 class CreateNotificationRequest(BaseModel):
     user_id: uuid.UUID
     user_group_id: uuid.UUID
-    event_type: str
+    notification_template_id: uuid.UUID
     template_variables: dict
     planned_at: datetime

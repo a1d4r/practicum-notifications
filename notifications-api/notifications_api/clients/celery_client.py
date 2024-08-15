@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timedelta
 
 from celery import Celery
 from celery.result import AsyncResult
@@ -9,17 +9,12 @@ logger = settings.logger
 
 
 class CeleryClient:
-    def __init__(
-        self,
-        celery_broker_url: str = settings.celery_broker_url,
-        celery_backend_url: str = settings.celery_backend_url,
-    ):
+    def __init__(self, celery_broker_url: str = settings.rabbitmq_url):
         self.celery_broker_url = celery_broker_url
-        self.celery_backend_url = celery_backend_url
         self.celery_app: Celery | None = None
 
     async def __aenter__(self):
-        self.celery_app = Celery(broker=self.celery_broker_url, backend=self.celery_backend_url)
+        self.celery_app = Celery(broker=self.celery_broker_url)
         return self
 
     async def __aexit__(self, exc_type, exc_val, exc_tb):
@@ -29,7 +24,7 @@ class CeleryClient:
         self, task_name: str, args: list = None, kwargs=None, eta: datetime = None
     ) -> AsyncResult:
         result = self.celery_app.send_task(task_name, args=args, kwargs=kwargs, eta=eta)
-        logger.debug(f"Task {task_name} sent with id {result.id}.")
+        logger.debug(f"Task {task_name} sent with id {result.id}. ETA: {eta}.")
         return result
 
     def get_task_result(self, task_id: str) -> AsyncResult:
