@@ -12,6 +12,8 @@ services:
       - notification-admin
     ports:
       - ${NGINX_INTERNAL_PORT}:${NGINX_EXTERNAL_PORT}
+    networks:
+      - notification-service
 
   notification-admin:
     build :
@@ -27,6 +29,8 @@ services:
     depends_on:
       postgres:
         condition: service_healthy
+    networks:
+      - notification-service
 
   postgres:
     image: postgres:13
@@ -39,6 +43,8 @@ services:
       interval: 5s
       timeout: 10s
       retries: 120
+    networks:
+      - notification-service
 
   celery:
     image: notifications-admin:latest
@@ -47,6 +53,8 @@ services:
       - ./.env
     depends_on:
       - notification-admin
+    networks:
+      - notification-service
 
   celery-beat:
     image: notifications-admin:latest
@@ -55,6 +63,8 @@ services:
       - ./.env
     depends_on:
       - notification-admin
+    networks:
+      - notification-service
 
   rabbitmq:
     image: rabbitmq:3-management
@@ -63,6 +73,8 @@ services:
     environment:
       RABBITMQ_DEFAULT_USER: ${RABBIT_USER}
       RABBITMQ_DEFAULT_PASS: ${RABBIT_PASS}
+    networks:
+      - notification-service
 
   filebeat:
     image: elastic/filebeat:8.10.2
@@ -70,7 +82,9 @@ services:
     volumes:
       - ./logs/nginx:/var/log/nginx:ro
       - ./deploy/filebeat.yml:/usr/share/filebeat/filebeat.yml
+    networks:
+      - notification-service
 
 networks:
-  notifications_service:
-    external: true
+  notification-service:
+    driver: "bridge"

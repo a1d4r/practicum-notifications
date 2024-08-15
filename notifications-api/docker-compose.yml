@@ -8,21 +8,21 @@ services:
     volumes:
       - ./notifications_api:/app/notifications_api
     networks:
-      - notification-api
+      - notification-service
 
   nginx:
     image: nginx:1.25.3
     volumes:
-      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
-      - ./movies_admin/logs/nginx/:/var/log/nginx/
-      - ./nginx/conf.d:/etc/nginx/conf.d:ro
-      - ./movies_admin/staticfiles:/movies_admin/staticfiles:ro
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./configs:/etc/nginx/conf.d:ro
+      - ./notifications_api/logs/nginx/:/var/log/nginx/
+      - ./notifications_api/staticfiles:/notifications_api/staticfiles:ro
     depends_on:
-      - django
+      - app
     ports:
-      - ${NGINX_INTERNAL_PORT}:${NGINX_EXTERNAL_PORT}
+      - ${NGINX_EXTERNAL_PORT}:${NGINX_INTERNAL_PORT}
     networks:
-      - notification-api
+      - notification-service
 
   filebeat:
     image: elastic/filebeat:8.10.2
@@ -31,8 +31,8 @@ services:
       - ./movies_admin/logs/nginx:/var/log/nginx:ro
       - ./deploy/filebeat.yml:/usr/share/filebeat/filebeat.yml
     networks:
-      - notification-api
+      - notification-service
 
 networks:
-  notification-api:
+  notification-service:
     driver: "bridge"
