@@ -35,7 +35,4 @@ class CeleryClient:
 
 async def get_celery_session():
     async with CeleryClient() as session:
-        try:
-            yield session
-        except Exception as e:
-            logger.error(str(e))
+        yield session

@@ -66,7 +66,4 @@ class RabbitMQClient:
 
 async def get_rabbit_session():
     async with RabbitMQClient() as session:
-        try:
-            yield session
-        except Exception as e:
-            logger.error(str(e))
+        yield session
