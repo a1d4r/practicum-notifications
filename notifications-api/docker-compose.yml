@@ -7,3 +7,32 @@ services:
     image: notifications-api:latest
     volumes:
       - ./notifications_api:/app/notifications_api
+    networks:
+      - notification-service
+
+  nginx:
+    image: nginx:1.25.3
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./configs:/etc/nginx/conf.d:ro
+      - ./notifications_api/logs/nginx/:/var/log/nginx/
+      - ./notifications_api/staticfiles:/notifications_api/staticfiles:ro
+    depends_on:
+      - app
+    ports:
+      - ${NGINX_EXTERNAL_PORT}:${NGINX_INTERNAL_PORT}
+    networks:
+      - notification-service
+
+  filebeat:
+    image: elastic/filebeat:8.10.2
+    command: filebeat -e -strict.perms=false
+    volumes:
+      - ./movies_admin/logs/nginx:/var/log/nginx:ro
+      - ./deploy/filebeat.yml:/usr/share/filebeat/filebeat.yml
+    networks:
+      - notification-service
+
+networks:
+  notification-service:
+    driver: "bridge"

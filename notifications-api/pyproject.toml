@@ -9,6 +9,18 @@ name = "notifications-api"
 [tool.poetry.dependencies]  # https://python-poetry.org/docs/dependency-specification/
 python = "^3.12"
 pydantic = "^2.6.4"
+uvicorn = "^0.30.6"
+fastapi = "^0.112.0"
+pydantic-settings = "^2.4.0"
+loguru = "^0.7.2"
+sqlalchemy = "^2.0.32"
+asyncpg = "^0.29.0"
+celery = "^5.4.0"
+python-jose = "^3.3.0"
+aio-pika = "^9.4.3"
+greenlet = "^3.0.3"
+aiohttp = "^3.10.3"
+pytest-asyncio = "^0.23.8"
 
 [tool.poetry.group.dev.dependencies]  # https://python-poetry.org/docs/master/managing-dependencies/
 mypy = "^1.11.1"

@@ -79,9 +79,9 @@ RUN --mount=type=cache,target=/root/.cache \
     poetry install --with=dev
 
 # will become mountpoint of our code
-WORKDIR /app
+WORKDIR /app/notifications_api
 
-CMD ["python", "-m", "notifications_api.example"]
+CMD ["uvicorn", "run:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
 
 
 ################################
@@ -91,5 +91,5 @@ CMD ["python", "-m", "notifications_api.example"]
 FROM python-base as production
 COPY --from=builder-base $PYSETUP_PATH $PYSETUP_PATH
 COPY notifications_api /app/notifications_api
-WORKDIR /app
-CMD ["python", "-m", "notifications_api.example"]
+WORKDIR /app/notifications_api
+CMD ["uvicorn", "run:app", "--host", "0.0.0.0", "--port", "8000"]

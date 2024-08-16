@@ -1,0 +1,55 @@
+version: "3.9"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: notifications-api:latest
+    volumes:
+      - ./notifications_api:/app/notifications_api
+    networks:
+      - notification-api
+
+  nginx:
+    image: nginx:1.25.3
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./movies_admin/logs/nginx/:/var/log/nginx/
+      - ./nginx/conf.d:/etc/nginx/conf.d:ro
+      - ./movies_admin/staticfiles:/movies_admin/staticfiles:ro
+    depends_on:
+      - django
+    ports:
+      - ${NGINX_INTERNAL_PORT}:${NGINX_EXTERNAL_PORT}
+    networks:
+      - notification-api
+
+  postgres:
+    image: postgres:13
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
+      - ./schema_design/movies_database.ddl:/schema_design/movies_database.ddl:ro
+    env_file:
+      - .env
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: [ "CMD-SHELL", "sh -c 'pg_isready -U ${DB_USER} -d ${DB_NAME}'" ]
+      interval: 5s
+      timeout: 10s
+      retries: 120
+    networks:
+      - notification-api
+
+  filebeat:
+    image: elastic/filebeat:8.10.2
+    command: filebeat -e -strict.perms=false
+    volumes:
+      - ./movies_admin/logs/nginx:/var/log/nginx:ro
+      - ./deploy/filebeat.yml:/usr/share/filebeat/filebeat.yml
+    networks:
+      - notification-api
+
+networks:
+  notification-api:
+    driver: "bridge"

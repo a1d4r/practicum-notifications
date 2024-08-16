@@ -22,7 +22,7 @@ class Migration(migrations.Migration):
             reverse_sql="DROP SCHEMA notification",
         ),
         migrations.CreateModel(
-            name="NotificationsTemplates",
+            name="NotificationTemplates",
             fields=[
                 ("created_at", models.DateTimeField(auto_now_add=True, verbose_name="created at")),
                 ("updated_at", models.DateTimeField(auto_now=True)),
@@ -68,7 +68,7 @@ class Migration(migrations.Migration):
             },
         ),
         migrations.CreateModel(
-            name="NotificationsContents",
+            name="NotificationContents",
             fields=[
                 ("created_at", models.DateTimeField(auto_now_add=True, verbose_name="created at")),
                 ("updated_at", models.DateTimeField(auto_now=True)),
@@ -80,7 +80,7 @@ class Migration(migrations.Migration):
                 ),
                 (
                     "template_variables",
-                    models.JSONField(default={}, verbose_name="Template Variables"),
+                    models.JSONField(default=dict, verbose_name="Template Variables"),
                 ),
                 ("user_id", models.UUIDField(null=True, verbose_name="User ID")),
                 ("user_group_id", models.UUIDField(null=True, verbose_name="Group ID")),
@@ -88,8 +88,9 @@ class Migration(migrations.Migration):
                     "event_type",
                     models.ForeignKey(
                         on_delete=django.db.models.deletion.CASCADE,
-                        to="notifications.notificationstemplates",
+                        to="notifications.NotificationTemplates",
                         verbose_name="event type",
+                        db_column="notification_template_id",
                     ),
                 ),
             ],
@@ -114,8 +115,9 @@ class Migration(migrations.Migration):
                     "content_id",
                     models.ForeignKey(
                         on_delete=django.db.models.deletion.CASCADE,
-                        to="notifications.notificationscontents",
+                        to="notifications.NotificationContents",
                         verbose_name="content id",
+                        db_column="content_id",
                     ),
                 ),
             ],
