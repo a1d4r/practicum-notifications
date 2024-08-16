@@ -87,7 +87,7 @@ class NotificationService(NotificationsServiceBase):
         self._db.add(notification)
         await self._db.commit()
         await self.send_message_to_rabbit(
-            message_body=json.dumps({"notification_id": notification.id})
+            message_body=json.dumps({"notification_id": str(notification.id)})
         )
         return notification
 

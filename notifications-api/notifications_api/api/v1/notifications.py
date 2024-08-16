@@ -18,14 +18,12 @@ settings = config.get_settings()
 logger = settings.logger
 
 router = APIRouter(
-    prefix=f"{settings.api_root_path}/{settings.api_version}/scripts", tags=["scripts"]
+    prefix=f"{settings.api_root_path}/{settings.api_version}/notifications", tags=["notifications"]
 )
 
 
 @router.post(
-    path="/notifications/send",
-    status_code=http_status.HTTP_200_OK,
-    response_model=SendNotificationResponse,
+    path="/send", status_code=http_status.HTTP_200_OK, response_model=SendNotificationResponse
 )
 async def send_notification(
     # user: Annotated[dict, Depends(security_jwt(required_roles=[]))],
@@ -38,24 +36,16 @@ async def send_notification(
     )
     if not content_exists:
         raise HTTPException(
-            status_code=http_status.HTTP_404_NOT_FOUND,
+            status_code=http_status.HTTP_400_BAD_REQUEST,
             detail=f"content_id [{request_param.notification_content_id}] not found.",
         )
-        return SendNotificationResponse(
-            **{"notification_content_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"}
-        )
-
     result = await notification_service.send_notification(
         content_id=request_param.notification_content_id
     )
-    return SendNotificationResponse(**{"notification_content_id": result.id})
+    return SendNotificationResponse(**{"notification_id": str(result.id)})
 
 
-@router.post(
-    path="/notifications",
-    status_code=http_status.HTTP_200_OK,
-    response_model=SendNotificationResponse,
-)
+@router.post(path="/", status_code=http_status.HTTP_200_OK, response_model=SendNotificationResponse)
 async def create_notification(
     # user: Annotated[dict, Depends(security_jwt(required_roles=[]))],
     request_param: CreateNotificationRequest,
@@ -67,12 +57,8 @@ async def create_notification(
     )
     if not template_exists:
         raise HTTPException(
-            status_code=http_status.HTTP_404_NOT_FOUND,
+            status_code=http_status.HTTP_400_BAD_REQUEST,
             detail=f"template_id [{request_param.notification_template_id}] not found.",
         )
-        return SendNotificationResponse(
-            **{"notification_content_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"}
-        )
-    logger.debug(123)
     result = await notification_service.create_notification(**request_param.model_dump())
-    return SendNotificationResponse(**{"notification_content_id": result.id})
+    return SendNotificationResponse(**{"notification_id": str(result.id)})
