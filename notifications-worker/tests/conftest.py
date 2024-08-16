@@ -11,7 +11,7 @@ from faststream import ContextRepo
 from faststream.rabbit import RabbitBroker, TestRabbitBroker
 
 from notifications_worker.broker import broker
-from notifications_worker.dependencies import provide_smtp_client
+from notifications_worker.dependencies.smtp_client import provide_smtp_client
 
 
 @pytest.fixture()

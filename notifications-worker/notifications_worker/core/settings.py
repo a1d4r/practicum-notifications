@@ -5,7 +5,7 @@ from pathlib import Path
 from pydantic import SecretStr, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-PROJECT_PATH = Path(__file__).parent.parent.resolve()
+PROJECT_PATH = Path(__file__).parent.parent.parent.resolve()
 
 
 class RabbitMQSettings(BaseSettings):
@@ -51,7 +51,39 @@ class SMTPSettings(BaseSettings):
         return (PROJECT_PATH / cert_bundle).resolve()
 
 
+class DatabaseSettings(BaseSettings):
+    model_config = SettingsConfigDict(env_prefix="DB_", extra="ignore")
+
+    dialect: str = "postgresql"
+    driver: str = "asyncpg"
+    username: str
+    password: SecretStr
+    host: str
+    port: int
+    name: str
+
+    @property
+    def url(self) -> str:
+        """URL for SQLAlchemy engine.
+
+        Format: dialect+driver://username:password@host:port/database
+        More info: https://docs.sqlalchemy.org/en/20/core/engines.html#database-urls
+        """
+        return (
+            f"{self.dialect}+{self.driver}://{self.username}:"
+            f"{self.password.get_secret_value()}@{self.host}:{self.port}/{self.name}"
+        )
+
+
+class ProfilesSettings(BaseSettings):
+    model_config = SettingsConfigDict(env_prefix="PROFILES_", extra="ignore")
+
+    base_url: str
+
+
 env_file = PROJECT_PATH / "envs" / (".env.test" if "pytest" in sys.modules else ".env")
 rabbitmq_settings = RabbitMQSettings(_env_file=env_file)
 queues_settings = QueuesSettings(_env_file=env_file)
 smtp_settings = SMTPSettings(_env_file=env_file)
+database_settings = DatabaseSettings(_env_file=env_file)
+profiles_settings = ProfilesSettings(_env_file=env_file)

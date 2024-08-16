@@ -5,7 +5,7 @@ services:
     image: nginx:1.25.3
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
-      - ./logs/nginx/:/var/log/nginx/
+#      - ./logs/nginx/:/var/log/nginx/
       - ./configs:/etc/nginx/conf.d:ro
       - ./notifications_admin/static:/opt/app/notifications_admin/static:ro
     depends_on:
@@ -21,7 +21,7 @@ services:
     entrypoint: ["bash","/opt/app/entrypoint.sh"]
     volumes:
       - ./notifications_admin/static:/opt/app/notifications_admin/static
-      - ./logs/nginx/json-logs.json:/opt/app/logs/nginx/json-logs.json
+#      - ./logs/nginx/json-logs.json:/opt/app/logs/nginx/json-logs.json
     env_file:
       - ./.env
     depends_on:
@@ -72,12 +72,12 @@ services:
     ports:
       - "5672:5672"
 
-  filebeat:
-    image: elastic/filebeat:8.10.2
-    command: filebeat -e -strict.perms=false
-    volumes:
-      - ./logs/nginx:/var/log/nginx:ro
-      - ./deploy/filebeat.yml:/usr/share/filebeat/filebeat.yml
+#  filebeat:
+#    image: elastic/filebeat:8.10.2
+#    command: filebeat -e -strict.perms=false
+#    volumes:
+#      - ./logs/nginx:/var/log/nginx:ro
+#      - ./deploy/filebeat.yml:/usr/share/filebeat/filebeat.yml
 
 networks:
   notifications_service:
