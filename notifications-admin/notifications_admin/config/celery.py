@@ -25,12 +25,12 @@ def update_date(notification_content_id: str) -> None:
     Notifications = apps.get_model("notifications", "Notifications")
 
     try:
-        obj = Notifications.objects.get(content_id_id=notification_content_id)
+        obj = Notifications.objects.get(content_id=notification_content_id)
         obj.last_sent_at = datetime.now(UTC)
         obj.save()
     except Notifications.DoesNotExist:
         try:
-            Notifications.objects.create(content_id_id=notification_content_id)
+            Notifications.objects.create(content_id=notification_content_id)
         except IntegrityError as err:
             logger.error(err)
 

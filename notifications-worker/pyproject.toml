@@ -9,6 +9,16 @@ name = "notifications-worker"
 [tool.poetry.dependencies]  # https://python-poetry.org/docs/dependency-specification/
 python = "^3.12"
 pydantic = "^2.6.4"
+faststream = {extras = ["rabbit"], version = "^0.5.17"}
+pydantic-settings = "^2.4.0"
+aiosmtplib = "^3.0.2"
+fast-depends = "^2.4.8"
+loguru = "^0.7.2"
+inscriptis = "^2.5.0"
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.32"}
+asyncpg = "^0.29.0"
+httpx = "^0.27.0"
+jinja2 = "^3.1.4"
 
 [tool.poetry.group.dev.dependencies]  # https://python-poetry.org/docs/master/managing-dependencies/
 mypy = "^1.11.1"
@@ -20,6 +30,10 @@ typeguard = "^4.3.0"
 ruff = "^0.5.5"
 safety = "^3.2.4"
 deptry = "^0.18.0"
+pytest-asyncio = "^0.23.8"
+watchfiles = "^0.23.0"
+sqlacodegen = {version = "^3.0.0rc5", allow-prereleases = true}
+psycopg2 = {extras = ["binary"], version = "^2.9.9"}
 
 [tool.mypy]  # https://mypy.readthedocs.io/en/latest/config_file.html#using-a-pyproject-toml-file
 junit_xml = "reports/mypy.xml"
@@ -53,6 +67,7 @@ warn_untyped_fields = true
 # https://docs.pytest.org/en/latest/reference/reference.html#ini-options-ref
 filterwarnings = ["error", "ignore::DeprecationWarning", "ignore::ImportWarning"]
 testpaths = ["notifications_worker", "tests"]
+asyncio_mode = "auto"
 xfail_strict = true
 
 # Extra options:
@@ -108,10 +123,10 @@ ignore = [
   "ISC001", # forced by ruff formatter
   "TRY003", # long message for exceptions
   "EM101", # allow string literals for exceptions
-  "EM102", # allow f-string literals for exceptions
+  "EM102", # allow f-string literals for exceptions,
+  "FBT003",  # allow boolean positional values
 ]
 unfixable = [
-  "F", # pyflakes
   "ERA", # eradicate - commented-out code
 ]
 allowed-confusables = [
@@ -182,5 +197,5 @@ quote-style = "double"
 skip-magic-trailing-comma = true
 
 [tool.deptry.per_rule_ignores]
-DEP002 = []
+DEP002 = ["asyncpg"]
 DEP003 = []

@@ -1,4 +1,5 @@
 import asyncio
+
 from datetime import datetime, timedelta
 
 from celery import Celery
@@ -21,6 +22,7 @@ class CeleryClient:
     async def __aexit__(self, exc_type, exc_val, exc_tb):
         self.celery_app = None
 
+        
     async def send_task_to_celery(
         self, task_name: str, args: list = None, kwargs=None, eta: datetime = None
     ) -> AsyncResult:
@@ -37,6 +39,7 @@ class CeleryClient:
         self, task_name: str, args: list = None, kwargs=None, eta: datetime = None
     ) -> AsyncResult:
         return self.celery_app.send_task(task_name, args=args, kwargs=kwargs, eta=eta)
+
 
     def get_task_result(self, task_id: str) -> AsyncResult:
         result = AsyncResult(task_id, app=self.celery_app)

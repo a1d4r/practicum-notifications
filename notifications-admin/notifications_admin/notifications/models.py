@@ -73,11 +73,11 @@ class NotificationsContents(UUIDMixin, TimeStampedMixin):
 
 
 class Notifications(UUIDMixin):
-    content_id = models.ForeignKey(
+    content = models.ForeignKey(
         NotificationsContents, on_delete=models.CASCADE, verbose_name=_("content id")
     )
     created_at = models.DateTimeField(auto_now_add=True, verbose_name=_("created at"))
-    last_sent_at = models.DateTimeField(verbose_name=_("last sent at"))
+    last_sent_at = models.DateTimeField(verbose_name=_("last sent at"), null=True)
 
     class Meta:
         db_table = 'notification"."notifications'

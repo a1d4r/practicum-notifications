@@ -20,7 +20,7 @@ services:
     image: notifications-admin:latest
     entrypoint: ["bash","/opt/app/entrypoint.sh"]
     volumes:
-      - ./notifications_admin/static:/opt/app/notifications_admin/static
+      - ./notifications_admin/static:/opt/app/notifications_admin/statiс
       - ./logs/nginx/json-logs.json:/opt/app/logs/nginx/json-logs.json
     env_file:
       - ./.env
@@ -71,6 +71,7 @@ services:
       RABBITMQ_DEFAULT_PASS: ${RABBIT_PASS}
     ports:
       - "5672:5672"
+
 
   filebeat:
     image: elastic/filebeat:8.10.2

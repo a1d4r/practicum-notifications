@@ -10,6 +10,14 @@ VERSION := latest
 CODE = notifications_worker tests
 TESTS = tests
 
+.PHONY: run
+run:
+	faststream run notifications_worker.main:app --reload
+
+.PHONY: docs
+docs:
+	faststream docs serve notifications_worker.main:app --reload
+
 #* Poetry
 .PHONY: poetry-download
 poetry-download:

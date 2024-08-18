@@ -1,5 +1,8 @@
 # Notifications Admin
 
+Авторизация через сервис Auth_Service: **https://github.com/Fox13th/Auth_Service;**
+В качестве планировщика задач используется celery beat;
+
 ## Installation
 
 1. If you don't have `Poetry` installed run:

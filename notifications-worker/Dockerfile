@@ -81,7 +81,7 @@ RUN --mount=type=cache,target=/root/.cache \
 # will become mountpoint of our code
 WORKDIR /app
 
-CMD ["python", "-m", "notifications_worker.example"]
+CMD ["faststream", "run", "notifications_worker.main:app"]
 
 
 ################################
@@ -92,4 +92,5 @@ FROM python-base as production
 COPY --from=builder-base $PYSETUP_PATH $PYSETUP_PATH
 COPY ./notifications_worker /app/notifications_worker
 WORKDIR /app
-CMD ["python", "-m", "notifications_worker.example"]
+
+CMD ["faststream", "run", "notifications_worker.main:app"]
