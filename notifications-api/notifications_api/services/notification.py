@@ -68,16 +68,19 @@ class NotificationService(NotificationsServiceBase):
             user_group_id=user_group_id,
         )
         self._db.add(notification_content)
-        await self._db.commit()
+        await self._db.flush()
+
         notification = Notification(content_id=notification_content.id)
         self._db.add(notification)
+
         await self._db.commit()
+
         if not planned_at or planned_at < datetime.now(timezone.utc):
             await self.send_message_to_rabbit(
                 message_body=json.dumps({"notification_id": str(notification.id)})
             )
         else:
-            self._celery.send_task_to_celery(
+            await self._celery.send_task_to_celery(
                 task_name=json.dumps({"notification_id": str(notification.id)}), eta=planned_at
             )
         return notification

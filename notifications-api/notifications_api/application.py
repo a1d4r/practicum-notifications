@@ -1,6 +1,7 @@
 import json
+from typing import Any, Awaitable, Callable
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.responses import Response
@@ -19,7 +20,9 @@ app = FastAPI(
 
 
 class LoggingMiddleware(BaseHTTPMiddleware):
-    async def dispatch(self, request, call_next):
+    async def dispatch(
+        self, request: Request, call_next: Callable[[Request], Awaitable[Response]]
+    ) -> Response:
         if request.method in ["POST", "PUT", "PATCH"] and "auth" not in request.url.path:
             body = await request.body()
             try:
